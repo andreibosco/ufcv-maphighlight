@@ -11,10 +11,25 @@
     <h1>Teste</h1>
     <img alt='Planta baixa' class='map' src='imgs/planta_baixa.gif' usemap='#features'>
     <map name='features'>
-      <area alt='janelaBaixa' coords='221,67,246,148' data-tooltip='teste' href='#' shape='rect'>
+      <area alt='janelaBaixa' class='janela' coords='221,67,246,148' data-maphilight='{"fillColor":"ff0000","shadow":true}' data-tooltip='teste' href='#' shape='rect'>
+      <area alt='janelaBaixa' class='janela' coords='221,337,244,416' href='#' shape='rect'>
+      <area alt='janelaBaixa' class='janela' coords='422,606,451,679' href='#' shape='rect'>
       <area alt='porta' coords='375,268,454,337' href='#' shape='rect'>
       <area alt='cotaExtensao' coords='485,55,505,77' href='#' shape='rect'>
     </map>
+    <div>
+      <ul>
+        <li>
+          <a class='map-janelas' href='#'>Janelas</a>
+        </li>
+        <li>
+          <a href='#'>Portas</a>
+        </li>
+        <li>
+          <a href='#'>Teste</a>
+        </li>
+      </ul>
+    </div>
     <!-- scripts -->
     <script src='js/jquery-1.11.0.min.js'></script>
     <script src='js/jquery.maphilight.js'></script>
@@ -24,12 +39,30 @@
         $(".map").maphilight({
           fillColor: '008800'
         });
+        $("a.map-janelas")
+          .mouseover(function(event){
+            $("area.janela").mouseover();
+          })
+          .mouseout(function(event){
+            $("area.janela").mouseout();
+          })
+          .click(function(event){
+            event.preventDefautl();
+          });
         $("[data-tooltip!='']").qtip({
           content: {
             attr: "data-tooltip"
+          },
+          style: {
+            classes: "qtip-bootstrap qtip-custom"
           }
         })
       });
     </script>
+    <style>
+      .qtip-custom {
+        font-size: 14px;
+      }
+    </style>
   </body>
 </html>

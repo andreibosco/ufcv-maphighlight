@@ -12,9 +12,20 @@
     %h1 Teste
     %img.map{:src => "imgs/planta_baixa.gif", :alt => "Planta baixa", :usemap => "#features"}
     %map{:name => "features"}
-      %area{:shape => "rect", :coords => "221,67,246,148", :href => "#", :alt => "janelaBaixa", :data => {:tooltip => "teste"}}
+      %area.janela{:shape => "rect", :coords => "221,67,246,148", :href => "#", :alt => "janelaBaixa", :data => {:tooltip => "teste", :maphilight => '{"fillColor":"ff0000","shadow":true}'}}
+      %area.janela{:shape => "rect", :coords => "221,337,244,416", :href => "#", :alt => "janelaBaixa"}
+      %area.janela{:shape => "rect", :coords => "422,606,451,679", :href => "#", :alt => "janelaBaixa"} 
       %area{:shape => "rect", :coords => "375,268,454,337", :href => "#", :alt => "porta"} 
       %area{:shape => "rect", :coords => "485,55,505,77", :href => "#", :alt => "cotaExtensao"}
+
+    %div
+      %ul 
+        %li 
+          %a.map-janelas{:href => "#"} Janelas
+        %li 
+          %a{:href => "#"} Portas
+        %li 
+          %a{:href => "#"} Teste
 
     / scripts
     %script{:src => "js/jquery-1.11.0.min.js"}
@@ -25,9 +36,26 @@
         $(".map").maphilight({
           fillColor: '008800'
         });
+        $("a.map-janelas")
+          .mouseover(function(event){
+            $("area.janela").mouseover();
+          })
+          .mouseout(function(event){
+            $("area.janela").mouseout();
+          })
+          .click(function(event){
+            event.preventDefautl();
+          });
         $("[data-tooltip!='']").qtip({
           content: {
             attr: "data-tooltip"
+          },
+          style: {
+            classes: "qtip-bootstrap qtip-custom"
           }
         })
       });
+    :css
+      .qtip-custom {
+        font-size: 14px;
+      }
