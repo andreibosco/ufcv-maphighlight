@@ -1,0 +1,13 @@
+@import 'bourbon/bourbon';
+
+ellipse {
+  @include transition (all 0.5s ease-in-out);
+  fill: red;
+}
+
+.qtip-custom {
+  font-size: 14px
+}
+
+ellipse:hover {
+}

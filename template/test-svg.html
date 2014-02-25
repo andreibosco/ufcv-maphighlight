@@ -5,6 +5,7 @@
     <meta content='width=device-width, initial-scale=1.0' name='viewport'>
     <meta content='Teste - Highlight map' name='description'>
     <link href='css/jquery.qtip.min.css' rel='stylesheet'>
+    <link href='css/custom.css' rel='stylesheet'>
     <title>Teste - Highlight map</title>
   </head>
   <body>
@@ -88,17 +89,9 @@
             $(this).css("fill","blue");
           })
           .on("mouseout", function(){
-            $(this).css("fill","none");
+            $(this).css("fill","red");
           });
       });
     </script>
-    <style>
-      .qtip-custom {
-        font-size: 14px;
-      }
-      ellipse:hover {
-        
-      }
-    </style>
   </body>
 </html>

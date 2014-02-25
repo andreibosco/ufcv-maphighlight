@@ -5,6 +5,7 @@
     %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
     %meta{:name => "description", :content => "Teste - Highlight map"}
     %link{:rel => "stylesheet", :href => "css/jquery.qtip.min.css"}
+    %link{:rel => "stylesheet", :href => "css/custom.css"}
 
     %title Teste - Highlight map
 
@@ -84,13 +85,6 @@
             $(this).css("fill","blue");
           })
           .on("mouseout", function(){
-            $(this).css("fill","none");
+            $(this).css("fill","red");
           });
       });
-    :css
-      .qtip-custom {
-        font-size: 14px;
-      }
-      ellipse:hover {
-        
-      }
