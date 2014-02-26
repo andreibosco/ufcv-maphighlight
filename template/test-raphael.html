@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <meta content='Teste - Highlight map' name='description'>
+    <link href='css/jquery.qtip.min.css' rel='stylesheet'>
+    <link href='css/custom.css' rel='stylesheet'>
+    <title>Teste - Highlight map</title>
+    <style>
+      #canvas {
+        width: 640px;
+        height: 480px;
+        margin: 0 auto;
+        text-align: left;
+      }
+      rect {
+        stroke: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Teste - Raphael</h1>
+    <div id='rsr'></div>
+    <div>
+      <ul>
+        <li>
+          <a class='map-janelas' href='#'>Janelas</a>
+        </li>
+        <li>
+          <a href='#'>Portas</a>
+        </li>
+        <li>
+          <a href='#'>Teste</a>
+        </li>
+      </ul>
+    </div>
+    <!-- scripts -->
+    <script src='js/jquery-1.11.0.min.js'></script>
+    <script src='js/jquery.qtip.min.js'></script>
+    <script src='js/raphael-min.js'></script>
+    <!-- %script{:src => "js/teste-inkscape.js"} -->
+    <!-- %script{:src => "js/casa01.js"} -->
+    <!-- %script{:src => "js/casa01b.js"} / bom -->
+    <!-- %script{:src => "js/casa02.js"} -->
+    <script src='js/raphael-ie.js'></script>
+    <script>
+      $(function(){
+        // Raphael
+      
+      
+        $("a.map-janelas")
+          .mouseover(function(event){
+            $("#coberta").mouseover();
+          })
+          .mouseout(function(event){
+            $("#coberta").mouseout();
+          })
+          .click(function(event){
+            event.preventDefautl();
+          });
+        $("#coberta")
+          .mouseover(function(){
+            $("#rsr *").css("stroke","#ebebeb");
+            $(this).css("stroke","red");
+          })
+          .mouseout(function(){
+            $("#rsr *").css("stroke","black");
+          });
+        $("[data-tooltip!='']").qtip({
+          content: {
+            attr: "data-tooltip"
+          },
+          style: {
+            classes: "qtip-bootstrap qtip-custom"
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
