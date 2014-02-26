@@ -7,10 +7,14 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg18003"
    version="1.1"
-   width="744.09448"
-   height="1052.3622"
-   id="svg18003">
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="casa01d.svg">
   <defs
      id="defs18005">
     <symbol
@@ -20,43 +24,61 @@
     <symbol
        id="*Model_Space" />
     <pattern
-       height="8"
-       width="8"
-       patternUnits="userSpaceOnUse"
-       y="0"
+       id="Hatch"
        x="0"
-       id="Hatch">
+       y="0"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8">
       <path
-         linecap="square"
-         stroke="#000000"
-         stroke-width="0.25"
+         id="path18110"
          d="M8 4 l-4,4"
-         id="path18110" />
-      <path
-         linecap="square"
-         stroke="#000000"
          stroke-width="0.25"
+         stroke="#000000"
+         linecap="square" />
+      <path
+         id="path18112"
          d="M6 2 l-4,4"
-         id="path18112" />
-      <path
-         linecap="square"
-         stroke="#000000"
          stroke-width="0.25"
+         stroke="#000000"
+         linecap="square" />
+      <path
+         id="path18114"
          d="M4 0 l-4,4"
-         id="path18114" />
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square" />
     </pattern>
     <marker
-       refX="0"
-       refY="0"
        orient="auto"
        id="DistanceX"
-       style="overflow:visible">
+       style="overflow:visible"
+       refX="0.0"
+       refY="0.0">
       <path
-         d="M 3,-3 -3,3 M 0,-5 0,5"
          id="path18107"
-         style="stroke:#000000;stroke-width:0.5" />
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5" />
     </marker>
   </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.034762"
+     inkscape:cx="372.04724"
+     inkscape:cy="526.18109"
+     inkscape:document-units="px"
+     inkscape:current-layer="g18150"
+     showgrid="false"
+     inkscape:window-width="1474"
+     inkscape:window-height="958"
+     inkscape:window-x="587"
+     inkscape:window-y="367"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata18008">
     <rdf:RDF>
@@ -70,50 +92,70 @@
     </rdf:RDF>
   </metadata>
   <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
      id="layer1">
     <g
-       transform="translate(-3.7890624e-6,-187.23976)"
-       id="g18150">
+       id="g18150"
+       transform="translate(-3.7890624e-6,-187.23976)">
       <g
-         id="g18119" />
+         id="g18119"
+         inkscape:label="0" />
       <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
          d="m 293.22368,714.71507 151.34125,0 0,126.11773 208.09422,0 0,-280.61193 59.90591,0 0,-113.50594 -59.90591,0 0,-220.70599 -463.48259,0 0,9.45883 454.02376,0 0,220.70599 59.90591,0 0,94.58828 -59.90591,0 0,280.61186 -189.17656,0 0,-126.11766 -160.80008,0 0,9.45883 z"
-         id="path18123"
-         style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none" />
+         id="path18123" />
       <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
          d="m 198.63539,598.05619 0,-186.02363 -157.647134,0 0,-176.56479 37.835313,0 0,-9.45883 -47.294142,0 0,195.48245 157.647133,0 0,176.5648 9.45883,0 z"
-         id="path18125"
-         style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none" />
+         id="path18125" />
       <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
          d="m 189.17656,598.05619 0,116.65888 104.04712,0"
-         id="path18129"
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+         id="path18129" />
       <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
          d="m 293.22368,705.25624 -94.58829,0 0,-107.20005"
-         id="path18131"
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+         id="path18131" />
       <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:0"
          d="m 0,194.47951 0,677.88269 684.18858,0 0,-280.6119 59.90591,0 0,-176.56479 -59.90591,0 0,-220.706 -684.18858,0 z"
-         id="path18135"
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:12, 12;stroke-dashoffset:0" />
+         id="path18135" />
+      <rect
+         style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;fill:#ffffff;stroke:#ff0000;stroke-opacity:1;fill-opacity:1"
+         id="rect18745"
+         width="167.1882"
+         height="30.924984"
+         x="7.731246"
+         y="717.98578"
+         transform="translate(3.7890624e-6,187.23976)" />
       <text
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
          x="15.789299"
          y="927.47614"
          id="text18697"
-         xml:space="preserve"
-         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan18699"
            x="15.789299"
-           y="927.47614"
-           id="tspan18699">janela alta</tspan></text>
+           y="927.47614">janela alta</tspan></text>
       <text
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
          x="14.148674"
          y="957.78827"
          id="text18701"
-         xml:space="preserve"
-         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"><tspan
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan18703"
            x="14.148674"
-           y="957.78827"
-           id="tspan18703">folha de janela alta</tspan></text>
+           y="957.78827">folha de janela alta</tspan></text>
     </g>
   </g>
 </svg>
