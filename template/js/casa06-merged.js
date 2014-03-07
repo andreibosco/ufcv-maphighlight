@@ -1,4 +1,4 @@
-var rsr = new Raphael('rsr', '745', '760');
+var rsr = new Raphael('rsr', '745', '900');
 
 var layer1 = rsr.set();
 
@@ -9,240 +9,215 @@ var text6885 = rsr.text(640, 770.5, 'B').attr({"font-size": '11px',"font-weight"
 var text6897 = rsr.text(106, 770.5, 'B').attr({"font-size": '11px',"font-weight": 'bold',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1',}).transform("t-1.4828368,-307.93821");
 
 var cotasLinhas = rsr.set();
-var path5825 = rsr.path("m 154.17341,998.61956 0,10.70884").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5827 = rsr.path("m 636.07014,998.61956 0,10.70884").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5829 = rsr.path("m 158.21153,1003.974 473.8205,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5831 = rsr.path("m 167.55943,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5833 = rsr.path("m 154.17341,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5835 = rsr.path("m 171.59755,977.20193 4.03812,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5839 = rsr.path("m 160.86642,977.20193 5.71296,19.04318").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5841 = rsr.path("m 166.57938,996.24511 16.96635,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5843 = rsr.path("m 167.55943,977.20193 -13.38602,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5847 = rsr.path("m 265.72358,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5849 = rsr.path("m 272.41659,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5851 = rsr.path("m 261.68547,977.20193 -4.03812,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5853 = rsr.path("m 276.45471,977.20193 4.03811,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5855 = rsr.path("m 269.07009,977.20193 5.71295,19.04318").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5857 = rsr.path("m 274.78304,996.24511 16.96635,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5859 = rsr.path("m 265.72358,977.20193 6.69301,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5867 = rsr.path("m 171.59755,977.20193 90.08792,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5869 = rsr.path("m 56.901667,887.96179 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5871 = rsr.path("m 56.901667,901.34781 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5873 = rsr.path("m 51.547259,883.92368 0,-4.03812").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5877 = rsr.path("M 51.547259,894.6548 37.140033,890.33264").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5879 = rsr.path("m 37.140033,890.33264 0,-16.96636").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5881 = rsr.path("m 51.547259,887.96179 0,13.38602").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5885 = rsr.path("m 56.901667,756.33259 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5889 = rsr.path("m 51.547259,760.37071 0,123.55297").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5891 = rsr.path("m 56.901667,742.94657 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5895 = rsr.path("m 51.547259,738.90846 0,-4.03812").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5897 = rsr.path("m 51.547259,760.37071 0,4.03812").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5899 = rsr.path("M 51.547259,749.63958 37.140033,745.31742").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5901 = rsr.path("m 37.140033,745.31742 0,-16.96636").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5903 = rsr.path("m 51.547259,742.94657 0,13.38602").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5907 = rsr.path("m 56.901667,611.76357 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5911 = rsr.path("m 51.547259,615.80169 0,123.10677").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5913 = rsr.path("m 30.129626,479.68818 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5915 = rsr.path("m 30.129626,472.99516 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5917 = rsr.path("m 24.775218,483.72629 0,4.03812").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5921 = rsr.path("M 24.775218,476.34167 10.367993,472.0195").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5923 = rsr.path("m 10.367993,472.0195 0,-16.96635").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5925 = rsr.path("m 24.775218,479.68818 0,-6.69302").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5929 = rsr.path("m 30.129626,790.24384 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5931 = rsr.path("m 30.129626,901.34781 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5933 = rsr.path("m 24.775218,794.28196 0,103.02774").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5935 = rsr.path("m 30.129626,783.55083 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5939 = rsr.path("m 24.775218,779.51272 0,-4.03812").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5941 = rsr.path("m 24.775218,794.28196 0,4.03812").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5943 = rsr.path("M 24.775218,786.89734 10.367993,782.57517").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5945 = rsr.path("m 10.367993,782.57517 0,-16.96635").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5947 = rsr.path("m 24.775218,783.55083 0,6.69301").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5951 = rsr.path("m 30.129626,611.76357 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5955 = rsr.path("m 24.775218,615.80169 0,163.71103").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5957 = rsr.path("m 30.129626,605.07056 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5961 = rsr.path("m 24.775218,601.03245 0,-4.03812").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5963 = rsr.path("m 24.775218,615.80169 0,4.03812").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5965 = rsr.path("M 24.775218,608.41707 10.367993,604.0949").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5967 = rsr.path("m 10.367993,604.0949 0,-16.96635").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5969 = rsr.path("m 24.775218,605.07056 0,6.69301").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5977 = rsr.path("m 24.775218,483.72629 0,117.30616").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5979 = rsr.path("m 56.901667,479.68818 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5981 = rsr.path("m 56.901667,472.99516 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5983 = rsr.path("m 51.547259,483.72629 0,4.03812").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5987 = rsr.path("M 51.547259,476.34167 37.140033,472.0195").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5989 = rsr.path("m 37.140033,472.0195 0,-16.96635").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5991 = rsr.path("m 51.547259,479.68818 0,-6.69302").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5995 = rsr.path("m 56.901667,605.07056 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5999 = rsr.path("m 51.547259,601.03245 0,-4.03812").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6001 = rsr.path("m 51.547259,615.80169 0,4.03812").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6003 = rsr.path("M 51.547259,608.41707 37.140033,604.0949").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6005 = rsr.path("m 37.140033,604.0949 0,-16.96635").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6007 = rsr.path("m 51.547259,605.07056 0,6.69301").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6011 = rsr.path("m 56.901667,544.38727 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6015 = rsr.path("m 51.547259,548.42539 0,52.60706").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6017 = rsr.path("m 56.901667,537.69426 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6021 = rsr.path("m 51.547259,533.65615 0,-4.03812").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6023 = rsr.path("m 51.547259,548.42539 0,4.03812").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6025 = rsr.path("M 51.547259,541.04077 37.140033,536.7186").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6027 = rsr.path("m 37.140033,536.7186 0,-16.96635").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6029 = rsr.path("m 51.547259,537.69426 0,6.69301").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6037 = rsr.path("m 51.547259,483.72629 0,49.92986").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6039 = rsr.path("m 83.673707,593.91555 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6041 = rsr.path("m 83.673707,611.76357 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6043 = rsr.path("m 78.319299,597.95366 0,9.7718").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6045 = rsr.path("m 83.673707,562.6815 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6049 = rsr.path("m 78.319299,566.71962 0,23.15781").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6051 = rsr.path("m 83.673707,527.87785 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6055 = rsr.path("m 78.319299,531.91597 0,26.72741").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6057 = rsr.path("m 83.673707,496.6438 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6061 = rsr.path("m 78.319299,500.68192 0,23.15781").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6063 = rsr.path("m 83.673707,790.24384 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6065 = rsr.path("m 83.673707,812.55388 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6067 = rsr.path("m 78.319299,794.28196 0,14.2338").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6069 = rsr.path("m 83.673707,879.48398 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6071 = rsr.path("m 83.673707,901.34781 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6073 = rsr.path("m 78.319299,883.5221 0,13.7876").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6079 = rsr.path("m 78.319299,816.59199 0,58.85387").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6083 = rsr.path("m 83.673707,472.99516 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6085 = rsr.path("m 78.319299,492.60568 0,-15.5724").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6087 = rsr.path("m 83.673707,716.62073 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6091 = rsr.path("m 78.319299,720.65885 0,65.54688").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6097 = rsr.path("m 78.319299,615.80169 0,96.78093").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6099 = rsr.path("m 392.89078,422.57449 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6101 = rsr.path("m 593.68108,422.57449 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6103 = rsr.path("m 396.92889,417.22008 192.71407,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6105 = rsr.path("m 325.96067,422.57449 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6109 = rsr.path("m 329.99879,417.22008 58.85387,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6111 = rsr.path("m 265.72358,422.57449 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6115 = rsr.path("m 269.7617,417.22008 52.16086,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6117 = rsr.path("m 187.63846,422.57449 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6121 = rsr.path("m 191.67658,417.22008 70.00889,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6123 = rsr.path("m 154.17341,422.57449 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6127 = rsr.path("m 158.21153,417.22008 25.38882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6129 = rsr.path("m 160.86642,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6131 = rsr.path("m 154.17341,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6133 = rsr.path("m 164.90454,390.44804 4.03812,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6137 = rsr.path("m 157.51992,390.44804 4.32217,-14.40723").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6139 = rsr.path("m 161.84209,376.04081 16.96635,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6141 = rsr.path("m 160.86642,390.44804 -6.69301,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6145 = rsr.path("m 586.98807,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6147 = rsr.path("m 593.68108,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6149 = rsr.path("m 582.94995,390.44804 -4.03811,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6153 = rsr.path("m 590.33457,390.44804 4.32217,-14.40723").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6155 = rsr.path("m 594.65674,376.04081 16.96636,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6157 = rsr.path("m 586.98807,390.44804 6.69301,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6161 = rsr.path("m 453.12787,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6163 = rsr.path("m 586.98807,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6165 = rsr.path("m 457.16598,390.44804 125.78397,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6167 = rsr.path("m 446.43486,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6169 = rsr.path("m 453.12787,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6171 = rsr.path("m 442.39674,390.44804 -4.03812,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6173 = rsr.path("m 457.16598,390.44804 4.03812,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6175 = rsr.path("m 449.78136,390.44804 4.32217,-14.40723").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6177 = rsr.path("m 454.10353,376.04081 16.96635,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6179 = rsr.path("m 446.43486,390.44804 6.69301,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6183 = rsr.path("m 272.41659,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6187 = rsr.path("m 276.45471,390.44804 165.94203,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6189 = rsr.path("m 265.72358,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6193 = rsr.path("m 261.68547,390.44804 -4.03812,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6195 = rsr.path("m 276.45471,390.44804 4.03811,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6197 = rsr.path("m 269.07009,390.44804 4.32216,-14.40723").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6199 = rsr.path("m 273.39225,376.04081 16.96636,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6201 = rsr.path("m 265.72358,390.44804 6.69301,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6209 = rsr.path("m 164.90454,390.44804 96.78093,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6211 = rsr.path("m 154.17341,369.03041 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6213 = rsr.path("m 593.68108,369.03041 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6215 = rsr.path("m 158.21153,363.676 431.43143,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6217 = rsr.path("m 706.56985,479.68818 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6219 = rsr.path("m 706.56985,472.99516 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6221 = rsr.path("m 711.92426,483.72629 0,4.03812").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6225 = rsr.path("m 711.92426,476.34167 19.04318,-5.71295").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6227 = rsr.path("m 730.96744,470.62872 0,-16.96636").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6229 = rsr.path("m 711.92426,479.68818 0,-6.69302").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6233 = rsr.path("m 706.56985,894.6548 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6235 = rsr.path("m 706.56985,901.34781 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6237 = rsr.path("m 711.92426,890.61669 0,-4.03812").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6241 = rsr.path("m 711.92426,898.00131 19.04318,-5.71295").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6243 = rsr.path("m 730.96744,892.28836 0,-16.96636").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6245 = rsr.path("m 711.92426,894.6548 0,6.69301").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6249 = rsr.path("m 706.56985,702.78851 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6253 = rsr.path("m 711.92426,706.82663 0,183.79006").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6255 = rsr.path("m 706.56985,696.0955 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6259 = rsr.path("m 711.92426,692.05739 0,-4.03812").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6261 = rsr.path("m 711.92426,706.82663 0,4.03811").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6263 = rsr.path("m 711.92426,699.44201 19.04318,13.31612").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6265 = rsr.path("m 730.96744,712.75813 0,16.96635").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6267 = rsr.path("m 711.92426,696.0955 0,6.69301").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6271 = rsr.path("m 706.56985,629.1654 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6275 = rsr.path("m 711.92426,633.20352 0,58.85387").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6277 = rsr.path("m 706.56985,622.47239 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6281 = rsr.path("m 711.92426,618.43428 0,-4.03812").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6283 = rsr.path("m 711.92426,633.20352 0,4.03811").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6285 = rsr.path("m 711.92426,625.8189 19.04318,-5.71296").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6287 = rsr.path("m 730.96744,620.10594 0,-16.96635").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6289 = rsr.path("m 711.92426,622.47239 0,6.69301").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6297 = rsr.path("m 711.92426,483.72629 0,134.70799").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6299 = rsr.path("m 733.34189,901.34781 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6301 = rsr.path("m 733.34189,472.99516 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6303 = rsr.path("m 738.6963,897.3097 0,-420.27642").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6305 = rsr.path("m 679.79781,517.61523 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6307 = rsr.path("m 679.79781,472.99516 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6309 = rsr.path("m 685.15222,513.57712 0,-36.54384").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6311 = rsr.path("m 679.79781,584.54533 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6315 = rsr.path("m 685.15222,580.50722 0,-58.85387").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6317 = rsr.path("m 679.79781,622.47239 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6321 = rsr.path("m 685.15222,618.43428 0,-29.85083").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6323 = rsr.path("m 679.79781,644.78242 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6327 = rsr.path("m 685.15222,640.74431 0,-14.2338").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6329 = rsr.path("m 679.79781,680.47848 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6333 = rsr.path("m 685.15222,676.44036 0,-27.61982").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6335 = rsr.path("m 679.79781,702.78851 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6339 = rsr.path("m 685.15222,698.7504 0,-14.2338").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6341 = rsr.path("m 679.79781,827.7247 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6345 = rsr.path("m 685.15222,823.68659 0,-116.85996").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6347 = rsr.path("m 679.79781,901.34781 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6349 = rsr.path("m 679.79781,827.7247 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6351 = rsr.path("m 685.15222,897.3097 0,-65.54688").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6353 = rsr.path("m 629.37713,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6355 = rsr.path("m 636.07014,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6357 = rsr.path("m 625.33902,977.20193 -4.03812,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6361 = rsr.path("m 632.72364,977.20193 5.71295,19.04318").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6363 = rsr.path("m 638.43659,996.24511 16.96636,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6365 = rsr.path("m 629.37713,977.20193 6.69301,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6369 = rsr.path("m 593.68108,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6373 = rsr.path("m 597.7192,977.20193 27.61982,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6379 = rsr.path("m 582.94995,977.20193 -4.03811,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6381 = rsr.path("m 597.7192,977.20193 4.03811,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6383 = rsr.path("m 590.33457,977.20193 5.71296,19.04318").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6385 = rsr.path("m 596.04753,996.24511 16.96635,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6387 = rsr.path("m 586.98807,977.20193 6.69301,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6391 = rsr.path("m 446.43486,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6395 = rsr.path("m 442.39674,977.20193 -4.03812,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6397 = rsr.path("m 457.16598,977.20193 4.03812,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6399 = rsr.path("m 449.78136,977.20193 5.71295,19.04318").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6401 = rsr.path("m 455.49431,996.24511 16.96636,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6403 = rsr.path("m 446.43486,977.20193 6.69301,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6411 = rsr.path("m 276.45471,977.20193 165.94203,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6413 = rsr.path("m 265.72358,945.07548 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6415 = rsr.path("m 154.17341,945.07548 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6417 = rsr.path("m 261.68547,950.42989 -103.47394,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6419 = rsr.path("m 339.34669,945.07548 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6423 = rsr.path("m 335.30858,950.42989 -65.54688,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6425 = rsr.path("m 401.81479,945.07548 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6429 = rsr.path("m 397.77667,950.42989 -54.39186,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6431 = rsr.path("m 441.97285,945.07548 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6435 = rsr.path("m 437.93473,950.42989 -32.08182,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6437 = rsr.path("m 446.43486,945.07548 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6441 = rsr.path("m 450.47297,950.42989 4.03812,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6443 = rsr.path("m 437.93473,950.42989 -4.03811,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6445 = rsr.path("m 444.20385,950.42989 5.71296,19.04318").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6447 = rsr.path("m 449.91681,969.47307 16.96635,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6449 = rsr.path("m 446.43486,950.42989 -4.46201,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6453 = rsr.path("m 520.05797,945.07548 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6457 = rsr.path("m 516.67308,950.42989 -66.20011,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6463 = rsr.path("m 632.03203,950.42989 -34.31283,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path13445 = rsr.path("m 593.19493,950.42989 -73.8219,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5351 = rsr.path("m 457.16598,977.20193 125.78397,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+cotasLinhas.transform("t-1.4828368,-307.93821");
+
+var cotasChamadas = rsr.set();
+var path5869 = rsr.path("m 56.901667,887.96179 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5871 = rsr.path("m 56.901667,901.34781 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5885 = rsr.path("m 56.901667,756.33259 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5891 = rsr.path("m 56.901667,742.94657 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5907 = rsr.path("m 56.901667,611.76357 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5979 = rsr.path("m 56.901667,479.68818 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5981 = rsr.path("m 56.901667,472.99516 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5995 = rsr.path("m 56.901667,605.07056 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6011 = rsr.path("m 56.901667,544.38727 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6017 = rsr.path("m 56.901667,537.69426 -10.708817,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5913 = rsr.path("m 30.129626,479.68818 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5915 = rsr.path("m 30.129626,472.99516 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5929 = rsr.path("m 30.129626,790.24384 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5931 = rsr.path("m 30.129626,901.34781 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5935 = rsr.path("m 30.129626,783.55083 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5951 = rsr.path("m 30.129626,611.76357 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5957 = rsr.path("m 30.129626,605.07056 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6039 = rsr.path("m 83.673707,593.91555 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6041 = rsr.path("m 83.673707,611.76357 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6045 = rsr.path("m 83.673707,562.6815 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6051 = rsr.path("m 83.673707,527.87785 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6057 = rsr.path("m 83.673707,496.6438 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6063 = rsr.path("m 83.673707,790.24384 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6065 = rsr.path("m 83.673707,812.55388 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6069 = rsr.path("m 83.673707,879.48398 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6071 = rsr.path("m 83.673707,901.34781 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6083 = rsr.path("m 83.673707,472.99516 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6087 = rsr.path("m 83.673707,716.62073 -10.708816,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5825 = rsr.path("m 154.17341,998.61956 0,10.70884").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5827 = rsr.path("m 636.07014,998.61956 0,10.70884").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6099 = rsr.path("m 392.89078,422.57449 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6101 = rsr.path("m 593.68108,422.57449 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6105 = rsr.path("m 325.96067,422.57449 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6111 = rsr.path("m 265.72358,422.57449 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6117 = rsr.path("m 187.63846,422.57449 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6123 = rsr.path("m 154.17341,422.57449 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6129 = rsr.path("m 160.86642,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6131 = rsr.path("m 154.17341,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6145 = rsr.path("m 586.98807,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6147 = rsr.path("m 593.68108,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6161 = rsr.path("m 453.12787,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6163 = rsr.path("m 586.98807,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6167 = rsr.path("m 446.43486,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6169 = rsr.path("m 453.12787,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6183 = rsr.path("m 272.41659,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6189 = rsr.path("m 265.72358,395.80245 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6211 = rsr.path("m 154.17341,369.03041 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6213 = rsr.path("m 593.68108,369.03041 0,-10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6305 = rsr.path("m 679.79781,517.61523 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6307 = rsr.path("m 679.79781,472.99516 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6311 = rsr.path("m 679.79781,584.54533 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6317 = rsr.path("m 679.79781,622.47239 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6323 = rsr.path("m 679.79781,644.78242 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6329 = rsr.path("m 679.79781,680.47848 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6335 = rsr.path("m 679.79781,702.78851 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6341 = rsr.path("m 679.79781,827.7247 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6347 = rsr.path("m 679.79781,901.34781 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6349 = rsr.path("m 679.79781,827.7247 10.70881,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5831 = rsr.path("m 167.55943,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5833 = rsr.path("m 154.17341,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5847 = rsr.path("m 265.72358,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5849 = rsr.path("m 272.41659,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6353 = rsr.path("m 629.37713,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6355 = rsr.path("m 636.07014,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6369 = rsr.path("m 593.68108,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6391 = rsr.path("m 446.43486,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6413 = rsr.path("m 265.72358,945.07548 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6415 = rsr.path("m 154.17341,945.07548 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6419 = rsr.path("m 339.34669,945.07548 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6425 = rsr.path("m 401.81479,945.07548 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6431 = rsr.path("m 441.97285,945.07548 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6437 = rsr.path("m 446.43486,945.07548 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6453 = rsr.path("m 520.05797,945.07548 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6459 = rsr.path("m 636.07014,945.07548 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6461 = rsr.path("m 593.68108,945.07548 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6463 = rsr.path("m 632.03203,950.42989 -34.31283,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5347 = rsr.path("m 453.12787,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5349 = rsr.path("m 586.98807,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6217 = rsr.path("m 706.56985,479.68818 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6219 = rsr.path("m 706.56985,472.99516 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6233 = rsr.path("m 706.56985,894.6548 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6235 = rsr.path("m 706.56985,901.34781 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6249 = rsr.path("m 706.56985,702.78851 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6255 = rsr.path("m 706.56985,696.0955 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6271 = rsr.path("m 706.56985,629.1654 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6277 = rsr.path("m 706.56985,622.47239 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6299 = rsr.path("m 733.34189,901.34781 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6301 = rsr.path("m 733.34189,472.99516 10.70882,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+
+var cortesDirecao = rsr.set();
 var path6877 = rsr.path("m 622.38647,776.11025 35.69605,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6879 = rsr.path("m 653.62051,776.11025 a 13.38602,13.38602 0 1 0 -26.77204,0 13.38602,13.38602 0 1 0 26.77204,0 z").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6881 = rsr.path("M 658.08252,776.11025 640.23449,755.87249").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
@@ -259,11 +234,6 @@ var path6913 = rsr.path("m 315.02208,1052.3208 0,-35.6961").attr({fill: 'none',s
 var path6915 = rsr.path("m 328.4081,1034.4727 a 13.386025,13.386025 0 1 0 -26.77205,0 13.386025,13.386025 0 1 0 26.77205,0 z").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6917 = rsr.path("m 315.02208,1016.6247 -20.23777,17.848").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6919 = rsr.path("m 294.78431,1034.4727 20.23777,17.8481").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path13445 = rsr.path("m 593.19493,950.42989 -73.8219,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1.06','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5351 = rsr.path("m 457.16598,977.20193 125.78397,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5347 = rsr.path("m 453.12787,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5349 = rsr.path("m 586.98807,971.84752 0,10.70882").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-cotasLinhas.transform("t-1.4828368,-307.93821");
 
 var cotasCirculos = rsr.set();
 var path4769 = rsr.path("m 638.0892,1003.974 a 2.01906,2.01906 0 1 0 -4.03812,0 2.01906,2.01906 0 1 0 4.03812,0 z").attr({fill: 'none',stroke: '#000000',"stroke-linecap": 'round','stroke-width': '0.5','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
@@ -703,6 +673,12 @@ var path5639 = rsr.path("m 268.40079,716.62073 0,70.94591").attr({fill: 'none',s
 var path5641 = rsr.path("m 268.40079,787.56664 70.9459,0").attr({fill: 'none',stroke: '#000000','stroke-width': '0.6','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 janelasBaixas.attr({'transformG': 'translate(-1.4828368,-307.93821)'});
 
+var portaCorrer = rsr.set();
+var path5673 = rsr.path("m 453.12787,638.08942 0,35.69605").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5675 = rsr.path("m 453.12787,673.78547 1.3386,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5677 = rsr.path("m 454.46647,673.78547 0,-35.69605").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path5679 = rsr.path("m 454.46647,638.08942 -1.3386,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+
 var portas = rsr.set();
 var path5645 = rsr.path("m 439.74185,743.39278 a 43.245011,43.245011 0 0 0 -37.92706,40.15805").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5647 = rsr.path("m 458.92847,738.48457 a 35.721144,35.721144 0 0 0 34.38255,-35.69606").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
@@ -717,11 +693,6 @@ var path5663 = rsr.path("m 259.92297,544.38727 1.33861,0").attr({fill: 'none',st
 var path5665 = rsr.path("m 276.8786,604.62436 0,-35.69605").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5667 = rsr.path("m 276.8786,568.92831 1.3386,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5669 = rsr.path("m 278.2172,568.92831 0,35.69605").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5671 = rsr.path("m 278.2172,604.62436 -1.3386,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5673 = rsr.path("m 453.12787,638.08942 0,35.69605").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5675 = rsr.path("m 453.12787,673.78547 1.3386,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5677 = rsr.path("m 454.46647,673.78547 0,-35.69605").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path5679 = rsr.path("m 454.46647,638.08942 -1.3386,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5681 = rsr.path("m 508.90295,691.6335 26.77204,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5683 = rsr.path("m 535.67499,691.6335 0,-1.33861").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5685 = rsr.path("m 535.67499,690.29489 -26.77204,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
@@ -869,10 +840,10 @@ var text6633 = rsr.text(-462.70035, 726.41516, '.15').attr({"font-size": '8px',"
 var text6661 = rsr.text(-693.37982, 734.14404, '9.60').attr({"font-size": '8px',"font-weight": 'normal',"text-anchor": 'middle',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821 m0,-1,1,0,0,0");
 cotasDireita.attr({'transformG': 'translate(-1.4828368,-307.93821)'});
 
-var colunas = rsr.set();
+var pilar = rsr.set();
 var path6751 = rsr.path("m 167.55943,894.6548 a 6.69301,6.69301 0 1 0 -13.38602,0 6.69301,6.69301 0 1 0 13.38602,0 z").attr({fill: 'none',stroke: '#000000',"stroke-width": '2.5','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6753 = rsr.path("m 167.55943,749.63958 a 6.69301,6.69301 0 1 0 -13.38602,0 6.69301,6.69301 0 1 0 13.38602,0 z").attr({fill: 'none',stroke: '#000000',"stroke-width": '2.5','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-colunas.attr({'transformG': 'translate(-1.4828368,-307.93821)'});
+pilar.attr({'transformG': 'translate(-1.4828368,-307.93821)'});
 
 // areasCotas
 var areasCotas = rsr.set();
@@ -998,9 +969,10 @@ var text6465 = rsr.text(386.94803, 999.42169, '10.80').attr({"font-size": '8px',
 cotaInferior.attr({'transformG': 'translate(-1.4828368,-307.93821)'});
 
 
-//var rsrGroups = [layer1,cotasLinhas,cotasCirculos,paredes,paredesBaixas,projecaoCoberta,janelasAltas,janelasBaixas,portas,hachuras,cotasEsquerda,cotasSuperior,cotasDireita,colunas,areasCotas,cortes,cotaPiso,paredeBancadaCozinha,cotaInferior];
+//var rsrGroups = [layer1,cotasLinhas,cotasCirculos,paredes,paredesBaixas,projecaoCoberta,janelasAltas,janelasBaixas,portas,hachuras,cotasEsquerda,cotasSuperior,cotasDireita,pilar,areasCotas,cortes,cotaPiso,paredeBancadaCozinha,cotaInferior];
 layer1.push(
 	cotasLinhas,
+	cotasChamadas,
 	cotasCirculos,
 	bancada,
 	paredes,
@@ -1008,15 +980,17 @@ layer1.push(
 	projecaoCoberta,
 	janelasAltas,
 	janelasBaixas,
+	portaCorrer,
 	portas,
 	hachuras,
 	//cotasEsquerda,
 	//cotasDireita,
 	//cotasSuperior,
 	//cotaInferior,
-	colunas,
+	pilar,
 	//areasCotas,
 	cortes,
+	cortesDirecao,
 	//cortesTexto,
 	cotaPiso,
 	paredeBancadaCozinha
@@ -1028,260 +1002,212 @@ cortesTexto.push(
 	text6897
 );
 cotasLinhas.push(
-	path5351 ,
-	path5347 ,
-	path5349 ,
-	path5825 ,
-	path5827 ,
-	path5829 ,
-	path5831 ,
-	path5833 ,
-	path5835 ,
-	path5839 ,
-	path5841 ,
-	path5843 ,
-	path5847 ,
-	path5849 ,
-	path5851 ,
-	path5853 ,
-	path5855 ,
-	path5857 ,
-	path5859 ,
-	path5867 ,
-	path5869 ,
-	path5871 ,
-	path5873 ,
-	path5877 ,
-	path5879 ,
-	path5881 ,
-	path5885 ,
-	path5889 ,
-	path5891 ,
-	path5895 ,
-	path5897 ,
-	path5899 ,
-	path5901 ,
-	path5903 ,
-	path5907 ,
-	path5911 ,
-	path5913 ,
-	path5915 ,
-	path5917 ,
-	path5921 ,
-	path5923 ,
-	path5925 ,
-	path5929 ,
-	path5931 ,
-	path5933 ,
-	path5935 ,
-	path5939 ,
-	path5941 ,
-	path5943 ,
-	path5945 ,
-	path5947 ,
-	path5951 ,
-	path5955 ,
-	path5957 ,
-	path5961 ,
-	path5963 ,
-	path5965 ,
-	path5967 ,
-	path5969 ,
-	path5977 ,
-	path5979 ,
-	path5981 ,
-	path5983 ,
-	path5987 ,
-	path5989 ,
-	path5991 ,
-	path5995 ,
-	path5999 ,
-	path6001 ,
-	path6003 ,
-	path6005 ,
-	path6007 ,
-	path6011 ,
-	path6015 ,
-	path6017 ,
-	path6021 ,
-	path6023 ,
-	path6025 ,
-	path6027 ,
-	path6029 ,
-	path6037 ,
-	path6039 ,
-	path6041 ,
-	path6043 ,
-	path6045 ,
-	path6049 ,
-	path6051 ,
-	path6055 ,
-	path6057 ,
-	path6061 ,
-	path6063 ,
-	path6065 ,
-	path6067 ,
-	path6069 ,
-	path6071 ,
-	path6073 ,
-	path6079 ,
-	path6083 ,
-	path6085 ,
-	path6087 ,
-	path6091 ,
-	path6097 ,
-	path6099 ,
-	path6101 ,
-	path6103 ,
-	path6105 ,
-	path6109 ,
-	path6111 ,
-	path6115 ,
-	path6117 ,
-	path6121 ,
-	path6123 ,
-	path6127 ,
-	path6129 ,
-	path6131 ,
-	path6133 ,
-	path6137 ,
-	path6139 ,
-	path6141 ,
-	path6145 ,
-	path6147 ,
-	path6149 ,
-	path6153 ,
-	path6155 ,
-	path6157 ,
-	path6161 ,
-	path6163 ,
-	path6165 ,
-	path6167 ,
-	path6169 ,
-	path6171 ,
-	path6173 ,
-	path6175 ,
-	path6177 ,
-	path6179 ,
-	path6183 ,
-	path6187 ,
-	path6189 ,
-	path6193 ,
-	path6195 ,
-	path6197 ,
-	path6199 ,
-	path6201 ,
-	path6209 ,
-	path6211 ,
-	path6213 ,
-	path6215 ,
-	path6217 ,
-	path6219 ,
-	path6221 ,
-	path6225 ,
-	path6227 ,
-	path6229 ,
-	path6233 ,
-	path6235 ,
-	path6237 ,
-	path6241 ,
-	path6243 ,
-	path6245 ,
-	path6249 ,
-	path6253 ,
-	path6255 ,
-	path6259 ,
-	path6261 ,
-	path6263 ,
-	path6265 ,
-	path6267 ,
-	path6271 ,
-	path6275 ,
-	path6277 ,
-	path6281 ,
-	path6283 ,
-	path6285 ,
-	path6287 ,
-	path6289 ,
-	path6297 ,
-	path6299 ,
-	path6301 ,
-	path6303 ,
-	path6305 ,
-	path6307 ,
-	path6309 ,
-	path6311 ,
-	path6315 ,
-	path6317 ,
-	path6321 ,
-	path6323 ,
-	path6327 ,
-	path6329 ,
-	path6333 ,
-	path6335 ,
-	path6339 ,
-	path6341 ,
-	path6345 ,
-	path6347 ,
-	path6349 ,
-	path6351 ,
-	path6353 ,
-	path6355 ,
-	path6357 ,
-	path6361 ,
-	path6363 ,
-	path6365 ,
-	path6369 ,
-	path6373 ,
-	path6379 ,
-	path6381 ,
-	path6383 ,
-	path6385 ,
-	path6387 ,
-	path6391 ,
-	path6395 ,
-	path6397 ,
-	path6399 ,
-	path6401 ,
-	path6403 ,
-	path6411 ,
-	path6413 ,
-	path6415 ,
-	path6417 ,
-	path6419 ,
-	path6423 ,
-	path6425 ,
-	path6429 ,
-	path6431 ,
-	path6435 ,
-	path6437 ,
-	path6441 ,
-	path6443 ,
-	path6445 ,
-	path6447 ,
-	path6449 ,
-	path6453 ,
-	path6457 ,
-	path6459 ,
-	path6461 ,
-	path6463 ,
-	path6877 ,
-	path6879 ,
-	path6881 ,
-	path6883 ,
-	path6889 ,
-	path6891 ,
-	path6893 ,
-	path6895 ,
-	path6901 ,
-	path6903 ,
-	path6905 ,
-	path6907 ,
-	path6913 ,
-	path6915 ,
-	path6917 ,
-	path6919 ,
-	path13445
+	path5829,
+	path5839,
+	path5841,
+	path5843,
+	path5855,
+	path5857,
+	path5859,
+	path5867,
+	path5877,
+	path5879,
+	path5881,
+	path5889,
+	path5899,
+	path5901,
+	path5903,
+	path5911,
+	path5921,
+	path5923,
+	path5925,
+	path5933,
+	path5943,
+	path5945,
+	path5947,
+	path5955,
+	path5965,
+	path5967,
+	path5969,
+	path5977,
+	path5987,
+	path5989,
+	path5991,
+	path6003,
+	path6005,
+	path6007,
+	path6015,
+	path6025,
+	path6027,
+	path6029,
+	path6037,
+	path6043,
+	path6049,
+	path6055,
+	path6061,
+	path6067,
+	path6073,
+	path6079,
+	path6085,
+	path6091,
+	path6097,
+	path6103,
+	path6109,
+	path6115,
+	path6121,
+	path6127,
+	path6137,
+	path6139,
+	path6141,
+	path6149,
+	path6153,
+	path6155,
+	path6157,
+	path6165,
+	path6175,
+	path6177,
+	path6179,
+	path6187,
+	path6197,
+	path6199,
+	path6201,
+	path6209,
+	path6215,
+	path6225,
+	path6227,
+	path6229,
+	path6241,
+	path6243,
+	path6245,
+	path6253,
+	path6263,
+	path6265,
+	path6267,
+	path6275,
+	path6285,
+	path6287,
+	path6289,
+	path6297,
+	path6303,
+	path6309,
+	path6315,
+	path6321,
+	path6327,
+	path6333,
+	path6339,
+	path6345,
+	path6351,
+	path6361,
+	path6363,
+	path6365,
+	path6373,
+	path6383,
+	path6385,
+	path6387,
+	path6399,
+	path6401,
+	path6403,
+	path6411,
+	path6417,
+	path6423,
+	path6429,
+	path6435,
+	path6445,
+	path6447,
+	path6449,
+	path6457,
+	path6463,
+	path13445,
+	path5351
+);
+cotasChamadas.push(
+	path5869,
+	path5871,
+	path5885,
+	path5891,
+	path5907,
+	path5979,
+	path5981,
+	path5995,
+	path6011,
+	path6017,
+	path5913,
+	path5915,
+	path5929,
+	path5931,
+	path5935,
+	path5951,
+	path5957,
+	path6039,
+	path6041,
+	path6045,
+	path6051,
+	path6057,
+	path6063,
+	path6065,
+	path6069,
+	path6071,
+	path6083,
+	path6087,
+	path5825,
+	path5827,
+	path6099,
+	path6101,
+	path6105,
+	path6111,
+	path6117,
+	path6123,
+	path6129,
+	path6131,
+	path6145,
+	path6147,
+	path6161,
+	path6163,
+	path6167,
+	path6169,
+	path6183,
+	path6189,
+	path6211,
+	path6213,
+	path6305,
+	path6307,
+	path6311,
+	path6317,
+	path6323,
+	path6329,
+	path6335,
+	path6341,
+	path6347,
+	path6349,
+	path5831,
+	path5833,
+	path5847,
+	path5849,
+	path6353,
+	path6355,
+	path6369,
+	path6391,
+	path6413,
+	path6415,
+	path6419,
+	path6425,
+	path6431,
+	path6437,
+	path6453,
+	path6459,
+	path6461,
+	path5347,
+	path5349,
+	path6217,
+	path6219,
+	path6233,
+	path6235,
+	path6249,
+	path6255,
+	path6271,
+	path6277,
+	path6299,
+	path6301
 );
 cotasCirculos.push(
 	path4769 ,
@@ -1715,6 +1641,12 @@ janelasBaixas.push(
 	path5639 ,
 	path5641
 );
+portaCorrer.push(
+	path5673,
+	path5675,
+	path5677,
+	path5679
+);
 portas.push(
 	path5645 ,
 	path5647 ,
@@ -1729,11 +1661,6 @@ portas.push(
 	path5665 ,
 	path5667 ,
 	path5669 ,
-	path5671 ,
-	path5673 ,
-	path5675 ,
-	path5677 ,
-	path5679 ,
 	path5681 ,
 	path5683 ,
 	path5685 ,
@@ -1867,7 +1794,7 @@ cotasDireita.push(
 	text6689 ,
 	text6693
 );
-colunas.push(
+pilar.push(
 	path6751 ,
 	path6753
 );
@@ -1908,6 +1835,24 @@ cortes.push(
 	path6927 ,
 	path6929 ,
 	path6931
+);
+cortesDirecao.push(
+	path6877,
+	path6879,
+	path6881,
+	path6883,
+	path6889,
+	path6891,
+	path6893,
+	path6895,
+	path6901,
+	path6903,
+	path6905,
+	path6907,
+	path6913,
+	path6915,
+	path6917,
+	path6919
 );
 cotaPiso.push(
 	path6935 ,
@@ -1985,13 +1930,155 @@ var hoverOut = function() {
     this.attr({"stroke": "#000"});
 };
 
-// legenda
+var hoverInFill = function() {
+	layer1.attr({"stroke": "#b5b5b5"});
+    this.attr({"fill": "#ff0000"});
+};
+
+var hoverOutFill = function() {
+	layer1.attr({"stroke": "#000"});
+    this.attr({"fill": "#000"});
+};
+
+// *** Legenda
+
+// coluna 1
 var itemJanelaAlta = rsr.set();
-var rectJanelaAlta = rsr.rect(7, 717, 167, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'});
-var textJanelaAlta = rsr.text(15, 734, 'janela alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectJanelaAlta = rsr.rect(10, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'});
+var textJanelaAlta = rsr.text(15, 760, 'janela alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemJanelaAlta.push(
 	rectJanelaAlta,
 	textJanelaAlta
 );
+var itemFolhaJanelaAlta = rsr.set();
+var rectFolhaJanelaAlta = rsr.rect(10, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
+var textFolhaJanelaAlta = rsr.text(15, 790, 'folha de janela alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+itemFolhaJanelaAlta.push(
+	rectFolhaJanelaAlta,
+	textFolhaJanelaAlta
+);
+var itemJanelaBaixa = rsr.set();
+var rectJanelaBaixa = rsr.rect(10, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
+var textJanelaBaixa = rsr.text(15, 820, 'janela baixa').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+itemJanelaBaixa.push(
+	rectJanelaBaixa,
+	textJanelaBaixa
+);
+var itemProjCoberta = rsr.set();
+var rectProjCoberta = rsr.rect(10, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
+var textProjCoberta = rsr.text(15, 850, 'projeção da coberta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+itemProjCoberta.push(
+	rectProjCoberta,
+	textProjCoberta
+);
 
-itemJanelaAlta.hover(hoverIn, hoverOut, paredes, paredes);
+itemJanelaAlta.hover(hoverIn, hoverOut, janelasAltas);
+itemFolhaJanelaAlta.hover(hoverIn, hoverOut, janelasAltas, janelasAltas);
+itemJanelaBaixa.hover(hoverIn, hoverOut, janelasBaixas, janelasBaixas);
+itemProjCoberta.hover(hoverIn, hoverOut, projecaoCoberta, projecaoCoberta);
+
+// coluna 2
+var itemPiso = rsr.set();
+var rectPiso = rsr.rect(180, 745, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'});
+var textPiso = rsr.text(190, 760, 'aresta de piso - FIXME').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+itemPiso.push(
+	rectPiso,
+	textPiso
+);
+var itemParedeBaixa = rsr.set();
+var rectParedeBaixa = rsr.rect(180, 745, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
+var textParedeBaixa = rsr.text(190, 790, 'parede baixa (peitoril)').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+itemParedeBaixa.push(
+	rectParedeBaixa,
+	textParedeBaixa
+);
+var itemDesniveis = rsr.set();
+var rectDesniveis = rsr.rect(180, 745, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
+var textDesniveis = rsr.text(190, 820, 'desníveis - FIXME').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+itemDesniveis.push(
+	rectDesniveis,
+	textDesniveis
+);
+var itemChamada = rsr.set();
+var rectChamada = rsr.rect(180, 745, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
+var textChamada = rsr.text(190, 850, 'linha de extensão ou chamada').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+itemChamada.push(
+	rectChamada,
+	textChamada
+);
+var itemCotas = rsr.set();
+var rectCotas = rsr.rect(180, 745, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,120");
+var textCotas = rsr.text(190, 880, 'linhas de cota').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+itemCotas.push(
+	rectCotas,
+	textCotas
+);
+
+itemPiso.hover(hoverIn, hoverOut, projecaoCoberta); // FIXME
+itemParedeBaixa.hover(hoverIn, hoverOut, paredesBaixas, paredesBaixas);
+itemDesniveis.hover(hoverIn, hoverOut, projecaoCoberta, projecaoCoberta); // FIXME
+itemChamada.hover(hoverIn, hoverOut, cotasChamadas, cotasChamadas);
+itemCotas.hover(hoverIn, hoverOut, cotasLinhas, cotasLinhas);
+
+// coluna 3
+var itemPortaCorrer = rsr.set();
+var rectPortaCorrer = rsr.rect(390, 745, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'});
+var textPortaCorrer = rsr.text(400, 760, 'porta de correr').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+itemPortaCorrer.push(
+	rectPortaCorrer,
+	textPortaCorrer
+);
+var itemPortaAbrir = rsr.set();
+var rectPortaAbrir = rsr.rect(390, 745, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
+var textPortaAbrir = rsr.text(400, 790, 'porta de abrir').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+itemPortaAbrir.push(
+	rectPortaAbrir,
+	textPortaAbrir
+);
+var itemCorte = rsr.set();
+var rectCorte = rsr.rect(390, 745, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
+var textCorte = rsr.text(400, 820, 'linha de corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+itemCorte.push(
+	rectCorte,
+	textCorte
+);
+var itemCorteDirecao = rsr.set();
+var rectCorteDirecao = rsr.rect(390, 745, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
+var textCorteDirecao = rsr.text(400, 850, 'direção do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+itemCorteDirecao.push(
+	rectCorteDirecao,
+	textCorteDirecao
+);
+var itemCorteLetra = rsr.set();
+var rectCorteLetra = rsr.rect(390, 745, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,120");
+var textCorteLetra = rsr.text(400, 880, 'letra do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+itemCorteLetra.push(
+	rectCorteLetra,
+	textCorteLetra
+);
+
+itemPortaCorrer.hover(hoverIn, hoverOut, portaCorrer, portaCorrer);
+itemPortaAbrir.hover(hoverIn, hoverOut, portas, portas);
+itemCorte.hover(hoverIn, hoverOut, cortes, cortes);
+itemCorteDirecao.hover(hoverIn, hoverOut, cortesDirecao, cortesDirecao);
+itemCorteLetra.hover(hoverInFill, hoverOutFill, cortesTexto, cortesTexto);
+
+// coluna 4
+var itemParedeAlta = rsr.set();
+var rectParedeAlta = rsr.rect(570, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'});
+var textParedeAlta = rsr.text(580, 760, 'parede alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+itemParedeAlta.push(
+	rectParedeAlta,
+	textParedeAlta
+);
+var itemPilar = rsr.set();
+var rectPilar= rsr.rect(570, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
+var textPilar = rsr.text(580, 790, 'pilar').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+itemPilar.push(
+	rectPilar,
+	textPilar
+);
+
+itemParedeAlta.hover(hoverIn, hoverOut, paredes, paredes);
+itemPilar.hover(hoverIn, hoverOut, pilar, pilar);
+//itemPilar.hover(hoverIn, hoverOut, cotasLinhas, cotasCirculos); //teste
