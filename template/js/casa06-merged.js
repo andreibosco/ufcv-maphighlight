@@ -3,8 +3,8 @@ var rsr = new Raphael('rsr', '745', '900');
 var layer1 = rsr.set();
 
 var cortesTexto = rsr.set();
-var text6921 = rsr.text(305, 1034, 'A').attr({"font-size": '11px',"font-weight": 'bold',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var text6909 = rsr.text(367, 326, 'A').attr({"font-size": '11px',"font-weight": 'bold',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6921 = rsr.text(305, 1034, 'A').attr({"font-size": '11px',"font-weight": 'bold',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-315.93821");
 var text6885 = rsr.text(640, 770.5, 'B').attr({"font-size": '11px',"font-weight": 'bold',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var text6897 = rsr.text(106, 770.5, 'B').attr({"font-size": '11px',"font-weight": 'bold',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1',}).transform("t-1.4828368,-307.93821");
 
@@ -230,10 +230,10 @@ var path6901 = rsr.path("m 376.83517,344.13427 0,-35.69606").attr({fill: 'none',
 var path6903 = rsr.path("m 390.22119,326.28624 a 13.38602,13.38602 0 1 0 -26.77204,0 13.38602,13.38602 0 0 0 26.77204,0 z").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6905 = rsr.path("m 376.83517,308.43821 -20.23776,17.84803").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path6907 = rsr.path("m 356.59741,326.28624 20.23776,17.84803").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6913 = rsr.path("m 315.02208,1052.3208 0,-35.6961").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6915 = rsr.path("m 328.4081,1034.4727 a 13.386025,13.386025 0 1 0 -26.77205,0 13.386025,13.386025 0 1 0 26.77205,0 z").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6917 = rsr.path("m 315.02208,1016.6247 -20.23777,17.848").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var path6919 = rsr.path("m 294.78431,1034.4727 20.23777,17.8481").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6913 = rsr.path("m 315.02208,1052.3208 0,-35.6961").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-315.93821");
+var path6915 = rsr.path("m 328.4081,1034.4727 a 13.386025,13.386025 0 1 0 -26.77205,0 13.386025,13.386025 0 1 0 26.77205,0 z").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-315.93821");
+var path6917 = rsr.path("m 315.02208,1016.6247 -20.23777,17.848").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-315.93821");
+var path6919 = rsr.path("m 294.78431,1034.4727 20.23777,17.8481").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-315.93821");
 
 var cotasCirculos = rsr.set();
 var path4769 = rsr.path("m 638.0892,1003.974 a 2.01906,2.01906 0 1 0 -4.03812,0 2.01906,2.01906 0 1 0 4.03812,0 z").attr({fill: 'none',stroke: '#000000',"stroke-linecap": 'round','stroke-width': '0.5','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
@@ -865,8 +865,8 @@ var text6813 = rsr.text(480, 657, 'HALL').attr({"font-size": '7.0999999px',fill:
 var text6817 = rsr.text(480, 667, 'A=1,80m²').attr({"font-size": '7.0999999px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var text6861 = rsr.text(275, 824, 'VARANDA').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var text6865 = rsr.text(275, 837, 'A=26,37m²').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6821 = rsr.text(547, 1032, 'PLANTA BAIXA').attr({"font-size": '14px',"text-anchor":"start",fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6825 = rsr.text(547, 1048, 'Escala: 1/100').attr({"font-size": '12px',"text-anchor":"start",fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6821 = rsr.text(545, 1025, 'PLANTA BAIXA').attr({"font-size": '14px',"text-anchor":"start",fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6825 = rsr.text(545, 1040, 'Escala: 1/100').attr({"font-size": '12px',"text-anchor":"start",fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 
 // cota piso
 // sala
@@ -1941,31 +1941,33 @@ var hoverOutFill = function() {
 };
 
 // *** Legenda
+var textLegenda = rsr.text(15, 730, 'Legenda').attr({"font-size": '18px',"font-weight": 'bold',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var lineLegenda = rsr.path("M15,743L650,743").attr({"stroke-width": "2"});
 
 // coluna 1
 var itemJanelaAlta = rsr.set();
-var rectJanelaAlta = rsr.rect(10, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'});
+var rectJanelaAlta = rsr.rect(10, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
 var textJanelaAlta = rsr.text(15, 760, 'janela alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemJanelaAlta.push(
 	rectJanelaAlta,
 	textJanelaAlta
 );
 var itemFolhaJanelaAlta = rsr.set();
-var rectFolhaJanelaAlta = rsr.rect(10, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
+var rectFolhaJanelaAlta = rsr.rect(10, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
 var textFolhaJanelaAlta = rsr.text(15, 790, 'folha de janela alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemFolhaJanelaAlta.push(
 	rectFolhaJanelaAlta,
 	textFolhaJanelaAlta
 );
 var itemJanelaBaixa = rsr.set();
-var rectJanelaBaixa = rsr.rect(10, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
+var rectJanelaBaixa = rsr.rect(10, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
 var textJanelaBaixa = rsr.text(15, 820, 'janela baixa').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemJanelaBaixa.push(
 	rectJanelaBaixa,
 	textJanelaBaixa
 );
 var itemProjCoberta = rsr.set();
-var rectProjCoberta = rsr.rect(10, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
+var rectProjCoberta = rsr.rect(10, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
 var textProjCoberta = rsr.text(15, 850, 'projeção da coberta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemProjCoberta.push(
 	rectProjCoberta,
@@ -1973,112 +1975,112 @@ itemProjCoberta.push(
 );
 
 itemJanelaAlta.hover(hoverIn, hoverOut, janelasAltas);
-itemFolhaJanelaAlta.hover(hoverIn, hoverOut, janelasAltas, janelasAltas);
-itemJanelaBaixa.hover(hoverIn, hoverOut, janelasBaixas, janelasBaixas);
-itemProjCoberta.hover(hoverIn, hoverOut, projecaoCoberta, projecaoCoberta);
+itemFolhaJanelaAlta.hover(hoverIn, hoverOut, janelasAltas);
+itemJanelaBaixa.hover(hoverIn, hoverOut, janelasBaixas);
+itemProjCoberta.hover(hoverIn, hoverOut, projecaoCoberta);
 
 // coluna 2
 var itemPiso = rsr.set();
-var rectPiso = rsr.rect(180, 745, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'});
-var textPiso = rsr.text(190, 760, 'aresta de piso - FIXME').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectPiso = rsr.rect(180, 745, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
+var textPiso = rsr.text(185, 760, 'aresta de piso - FIXME').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemPiso.push(
 	rectPiso,
 	textPiso
 );
 var itemParedeBaixa = rsr.set();
-var rectParedeBaixa = rsr.rect(180, 745, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
-var textParedeBaixa = rsr.text(190, 790, 'parede baixa (peitoril)').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectParedeBaixa = rsr.rect(180, 745, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
+var textParedeBaixa = rsr.text(185, 790, 'parede baixa (peitoril)').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemParedeBaixa.push(
 	rectParedeBaixa,
 	textParedeBaixa
 );
 var itemDesniveis = rsr.set();
-var rectDesniveis = rsr.rect(180, 745, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
-var textDesniveis = rsr.text(190, 820, 'desníveis - FIXME').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectDesniveis = rsr.rect(180, 745, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
+var textDesniveis = rsr.text(185, 820, 'desníveis - FIXME').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemDesniveis.push(
 	rectDesniveis,
 	textDesniveis
 );
 var itemChamada = rsr.set();
-var rectChamada = rsr.rect(180, 745, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
-var textChamada = rsr.text(190, 850, 'linha de extensão ou chamada').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectChamada = rsr.rect(180, 745, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
+var textChamada = rsr.text(185, 850, 'linha de extensão ou chamada').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemChamada.push(
 	rectChamada,
 	textChamada
 );
 var itemCotas = rsr.set();
-var rectCotas = rsr.rect(180, 745, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,120");
-var textCotas = rsr.text(190, 880, 'linhas de cota').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectCotas = rsr.rect(180, 745, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,120");
+var textCotas = rsr.text(185, 880, 'linhas de cota').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemCotas.push(
 	rectCotas,
 	textCotas
 );
 
 itemPiso.hover(hoverIn, hoverOut, projecaoCoberta); // FIXME
-itemParedeBaixa.hover(hoverIn, hoverOut, paredesBaixas, paredesBaixas);
-itemDesniveis.hover(hoverIn, hoverOut, projecaoCoberta, projecaoCoberta); // FIXME
-itemChamada.hover(hoverIn, hoverOut, cotasChamadas, cotasChamadas);
-itemCotas.hover(hoverIn, hoverOut, cotasLinhas, cotasLinhas);
+itemParedeBaixa.hover(hoverIn, hoverOut, paredesBaixas);
+itemDesniveis.hover(hoverIn, hoverOut, projecaoCoberta); // FIXME
+itemChamada.hover(hoverIn, hoverOut, cotasChamadas);
+itemCotas.hover(hoverIn, hoverOut, cotasLinhas);
 
 // coluna 3
 var itemPortaCorrer = rsr.set();
-var rectPortaCorrer = rsr.rect(390, 745, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'});
-var textPortaCorrer = rsr.text(400, 760, 'porta de correr').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectPortaCorrer = rsr.rect(390, 745, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
+var textPortaCorrer = rsr.text(395, 760, 'porta de correr').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemPortaCorrer.push(
 	rectPortaCorrer,
 	textPortaCorrer
 );
 var itemPortaAbrir = rsr.set();
-var rectPortaAbrir = rsr.rect(390, 745, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
-var textPortaAbrir = rsr.text(400, 790, 'porta de abrir').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectPortaAbrir = rsr.rect(390, 745, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
+var textPortaAbrir = rsr.text(395, 790, 'porta de abrir').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemPortaAbrir.push(
 	rectPortaAbrir,
 	textPortaAbrir
 );
 var itemCorte = rsr.set();
-var rectCorte = rsr.rect(390, 745, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
-var textCorte = rsr.text(400, 820, 'linha de corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectCorte = rsr.rect(390, 745, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
+var textCorte = rsr.text(395, 820, 'linha de corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemCorte.push(
 	rectCorte,
 	textCorte
 );
 var itemCorteDirecao = rsr.set();
-var rectCorteDirecao = rsr.rect(390, 745, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
-var textCorteDirecao = rsr.text(400, 850, 'direção do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectCorteDirecao = rsr.rect(390, 745, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
+var textCorteDirecao = rsr.text(395, 850, 'direção do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemCorteDirecao.push(
 	rectCorteDirecao,
 	textCorteDirecao
 );
 var itemCorteLetra = rsr.set();
-var rectCorteLetra = rsr.rect(390, 745, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,120");
-var textCorteLetra = rsr.text(400, 880, 'letra do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectCorteLetra = rsr.rect(390, 745, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,120");
+var textCorteLetra = rsr.text(395, 880, 'letra do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemCorteLetra.push(
 	rectCorteLetra,
 	textCorteLetra
 );
 
-itemPortaCorrer.hover(hoverIn, hoverOut, portaCorrer, portaCorrer);
-itemPortaAbrir.hover(hoverIn, hoverOut, portas, portas);
-itemCorte.hover(hoverIn, hoverOut, cortes, cortes);
-itemCorteDirecao.hover(hoverIn, hoverOut, cortesDirecao, cortesDirecao);
-itemCorteLetra.hover(hoverInFill, hoverOutFill, cortesTexto, cortesTexto);
+itemPortaCorrer.hover(hoverIn, hoverOut, portaCorrer);
+itemPortaAbrir.hover(hoverIn, hoverOut, portas);
+itemCorte.hover(hoverIn, hoverOut, cortes);
+itemCorteDirecao.hover(hoverIn, hoverOut, cortesDirecao);
+itemCorteLetra.hover(hoverInFill, hoverOutFill, cortesTexto);
 
 // coluna 4
 var itemParedeAlta = rsr.set();
-var rectParedeAlta = rsr.rect(570, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'});
-var textParedeAlta = rsr.text(580, 760, 'parede alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectParedeAlta = rsr.rect(570, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
+var textParedeAlta = rsr.text(575, 760, 'parede alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemParedeAlta.push(
 	rectParedeAlta,
 	textParedeAlta
 );
 var itemPilar = rsr.set();
-var rectPilar= rsr.rect(570, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ff0000',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
-var textPilar = rsr.text(580, 790, 'pilar').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectPilar= rsr.rect(570, 745, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
+var textPilar = rsr.text(575, 790, 'pilar').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemPilar.push(
 	rectPilar,
 	textPilar
 );
 
-itemParedeAlta.hover(hoverIn, hoverOut, paredes, paredes);
-itemPilar.hover(hoverIn, hoverOut, pilar, pilar);
+itemParedeAlta.hover(hoverIn, hoverOut, paredes);
+itemPilar.hover(hoverIn, hoverOut, pilar);
 //itemPilar.hover(hoverIn, hoverOut, cotasLinhas, cotasCirculos); //teste
