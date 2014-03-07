@@ -26,27 +26,3 @@
     /%script{:src => "js/casa01b.js"} / bom
     /%script{:src => "js/raphael-ie.js"} / bom - texto com highlight de elementos
     %script{:src => "js/casa06-merged.js"} / bom - planta completa
-    :javascript
-      $(function(){
-        // Raphael
-
-
-        $("a.map-janelas")
-          .mouseover(function(event){
-            $("#coberta").mouseover();
-          })
-          .mouseout(function(event){
-            $("#coberta").mouseout();
-          })
-          .click(function(event){
-            event.preventDefautl();
-          });
-        $("#coberta")
-          .mouseover(function(){
-            $("#rsr *").css("stroke","#ebebeb");
-            $(this).css("stroke","red");
-          })
-          .mouseout(function(){
-            $("#rsr *").css("stroke","black");
-          });
-      });
