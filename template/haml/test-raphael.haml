@@ -4,10 +4,9 @@
     %meta{:charset => "utf-8"}
     %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
     %meta{:name => "description", :content => "Teste - Highlight map"}
-    %link{:rel => "stylesheet", :href => "css/jquery.qtip.min.css"}
     %link{:rel => "stylesheet", :href => "css/custom.css"}
 
-    %title Teste - Highlight map
+    %title Teste - Raphael
 
     :css
       #canvas {
@@ -24,32 +23,12 @@
     %h1 Teste - Raphael
     #rsr
 
-
-    %div
-      %ul 
-        %li 
-          %a.map-janelas{:href => "#"} Janelas
-        %li 
-          %a{:href => "#"} Portas
-        %li 
-          %a{:href => "#"} Teste
-
     / scripts
     %script{:src => "js/jquery-1.11.0.min.js"}
-    %script{:src => "js/jquery.qtip.min.js"}
     %script{:src => "js/raphael-min.js"}
-    /%script{:src => "js/teste-inkscape.js"}
-    /%script{:src => "js/casa01.js"}
     /%script{:src => "js/casa01b.js"} / bom
-    /%script{:src => "js/casa02.js"}
-    /%script{:src => "js/raphael-ie.js"} / bom
-    /%script{:src => "js/casa01e.js"}
-    /%script{:src => "js/casa01f.js"}
-    /%script{:src => "js/casa03d.js"}
-    /%script{:src => "js/casa03c-teste.js"}
-    /%script{:src => "js/casa04.js"}
-    /%script{:src => "js/casa05-texto-puro.js"}
-    %script{:src => "js/casa06-merged.js"}
+    /%script{:src => "js/raphael-ie.js"} / bom - texto com highlight de elementos
+    %script{:src => "js/casa06-merged.js"} / bom - planta completa
     :javascript
       $(function(){
         // Raphael
@@ -73,12 +52,4 @@
           .mouseout(function(){
             $("#rsr *").css("stroke","black");
           });
-        $("[data-tooltip!='']").qtip({
-          content: {
-            attr: "data-tooltip"
-          },
-          style: {
-            classes: "qtip-bootstrap qtip-custom"
-          }
-        });
       });

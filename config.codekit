@@ -847,13 +847,21 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/template\/haml\/test-raphael.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/template\/haml\/test-raphael.html",
+		"outputAbbreviatedPath": "\/template\/test-raphael.html",
 		"outputFormat": 2,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
+		},
+	"\/template\/haml\/test-raphael.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/template\/haml\/test-raphael.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
 		},
 	"\/template\/haml\/test-svg.haml": {
 		"escapeHTMLCharacters": 0,
@@ -862,7 +870,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/template\/haml\/test-svg.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/template\/haml\/test-svg.html",
+		"outputAbbreviatedPath": "\/template\/test-svg.html",
 		"outputFormat": 2,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -877,7 +885,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/template\/haml\/test.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/template\/haml\/test.html",
+		"outputAbbreviatedPath": "\/template\/test.html",
 		"outputFormat": 2,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1357,7 +1365,7 @@
 		},
 	"\/template\/test-raphael.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/template\/test-raphael.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -1365,7 +1373,7 @@
 		},
 	"\/template\/test-svg.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/template\/test-svg.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -1373,7 +1381,7 @@
 		},
 	"\/template\/test.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/template\/test.html",
 		"outputAbbreviatedPath": "No Output Path",
