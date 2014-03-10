@@ -968,6 +968,13 @@ var text6465 = rsr.text(386.94803, 999.42169, '10.80').attr({"font-size": '8px',
 
 cotaInferior.attr({'transformG': 'translate(-1.4828368,-307.93821)'});
 
+var arestaPiso = rsr.set();
+var path4982 = rsr.path("m 187.64307,472.93664 78.33849,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1',"stroke-opacity": '1'}).transform("t-1.4828368,-307.93821");
+var path4986 = rsr.path("m 154.17341,604.62436 0,296.72345").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path4988 = rsr.path("m 154.17341,901.34781 292.26145,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+
+var desnivel = rsr.set();
+var path53650 = rsr.path("m 276.81941,611.31737 35.84502,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 
 //var rsrGroups = [layer1,cotasLinhas,cotasCirculos,paredes,paredesBaixas,projecaoCoberta,janelasAltas,janelasBaixas,portas,hachuras,cotasEsquerda,cotasSuperior,cotasDireita,pilar,areasCotas,cortes,cotaPiso,paredeBancadaCozinha,cotaInferior];
 layer1.push(
@@ -993,7 +1000,17 @@ layer1.push(
 	cortesDirecao,
 	//cortesTexto,
 	cotaPiso,
-	paredeBancadaCozinha
+	paredeBancadaCozinha,
+	arestaPiso,
+	desnivel
+);
+arestaPiso.push(
+	path4982,
+	path4986,
+	path4988
+);
+desnivel.push(
+	path53650
 );
 cortesTexto.push(
 	text6921,
@@ -1930,6 +1947,22 @@ var hoverOut = function() {
     this.attr({"stroke": "#000"});
 };
 
+var hoverInStroke = function() {
+	layer1.attr({"stroke": "#b5b5b5"});
+    this.attr({
+		"stroke": "#ff0000",
+		"stroke-width": "3"
+    });
+};
+
+var hoverOutStroke = function() {
+	layer1.attr({"stroke": "#000"});
+    this.attr({
+		"stroke": "#000",
+		"stroke-width": "1"
+    });
+};
+
 var hoverInFill = function() {
 	layer1.attr({"stroke": "#b5b5b5"});
     this.attr({"fill": "#ff0000"});
@@ -1984,7 +2017,7 @@ itemProjCoberta.hover(hoverIn, hoverOut, projecaoCoberta);
 // coluna 2
 var itemPiso = rsr.set();
 var rectPiso = rsr.rect(180, 755, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
-var textPiso = rsr.text(185, 770, 'aresta de piso - FIXME').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var textPiso = rsr.text(185, 770, 'aresta de piso').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemPiso.push(
 	rectPiso,
 	textPiso
@@ -1998,7 +2031,7 @@ itemParedeBaixa.push(
 );
 var itemDesniveis = rsr.set();
 var rectDesniveis = rsr.rect(180, 755, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
-var textDesniveis = rsr.text(185, 830, 'desníveis - FIXME').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var textDesniveis = rsr.text(185, 830, 'desníveis').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 itemDesniveis.push(
 	rectDesniveis,
 	textDesniveis
@@ -2018,10 +2051,10 @@ itemCotas.push(
 	textCotas
 );
 
-itemPiso.hover(hoverIn, hoverOut, projecaoCoberta); // FIXME
+itemPiso.hover(hoverIn, hoverOut, arestaPiso);
 itemParedeBaixa.hover(hoverIn, hoverOut, paredesBaixas);
-itemDesniveis.hover(hoverIn, hoverOut, projecaoCoberta); // FIXME
-itemChamada.hover(hoverIn, hoverOut, cotasChamadas);
+itemDesniveis.hover(hoverInStroke, hoverOutStroke, desnivel);
+itemChamada.hover(hoverInStroke, hoverOutStroke, cotasChamadas);
 itemCotas.hover(hoverIn, hoverOut, cotasLinhas);
 
 // coluna 3
