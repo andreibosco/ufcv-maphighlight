@@ -1975,7 +1975,7 @@ var hoverOutFill = function() {
 
 // *** Legenda
 var textLegenda;
-textLegenda = rsr.text(15, 740, 'Legenda').attr({"font-size": '18px',"font-weight": 'bold',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+textLegenda = rsr.text(15, 740, 'Legenda (clique nos itens abaixo)').attr({"font-size": '18px',"font-weight": 'bold',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var lineLegenda;
 lineLegenda = rsr.path("M15,753L650,753").attr({"stroke-width": "2"});
 
@@ -2009,7 +2009,7 @@ itemProjCoberta.push(
 	textProjCoberta
 );
 
-itemJanelaAlta.hover(hoverIn, hoverOut, janelasAltas);
+//itemJanelaAlta.hover(hoverIn, hoverOut, janelasAltas);
 itemFolhaJanelaAlta.hover(hoverIn, hoverOut, janelasAltas);
 itemJanelaBaixa.hover(hoverIn, hoverOut, janelasBaixas);
 itemProjCoberta.hover(hoverIn, hoverOut, projecaoCoberta);
@@ -2147,3 +2147,33 @@ legenda
 	.attr({
 		"cursor": "pointer"
 	});
+
+itemJanelaAlta.click(function(){
+	
+	itemSelect(this, janelasAltas);
+
+	//console.info(this.data("selected"));
+});
+
+var itemSelect = function(element, target) {
+	if (element.data("selected")) {
+		element
+			.attr({"fill": "#FFFFFF"})
+			.data("selected", false);
+		itemRestore();
+	} else {
+		element
+			.attr({"fill": "#FF0000"})
+			.data("selected", true);
+		itemHighlight(target);
+	}
+};
+
+var itemHighlight = function(target) {
+	layer1.attr({"stroke": "#b5b5b5"});
+    target.attr({"stroke": "#ff0000"});
+};
+
+var itemRestore = function() {
+	layer1.attr({"stroke": "#000000"});
+};
