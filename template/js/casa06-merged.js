@@ -1248,7 +1248,7 @@ itemCorteDirecao.click(function(){
 });
 
 itemCorteLetra.click(function(){
-	itemSelect(itemCorteLetra[0], cortesTexto);
+	itemSelect(itemCorteLetra[0], cortesTexto, null, true);
 });
 
 // coluna 4
@@ -1261,34 +1261,51 @@ itemPilar.click(function(){
 });
 
 
-// funções
-var itemSelect = function(element, target, strokeWidth) {
+// Funções
+
+var itemSelect = function(element, target, strokeWidth, fill) {
+// element: objeto da lista de legenda
+// target: objeto a ser destacado
+// strokeWidth: string - largura da linha
+// fill: boolean - define se o objeto terá fill ou stroke (padrão, false, é stroke)
 	if (element.attr("fill") === "#FF0000") {
 		element.attr({"fill": "#FFFFFF"});
 		if (strokeWidth) {
 			itemRestore(target,"1");
+		} else if (fill) {
+			itemRestore(target, null, true);
 		} else {
 			itemRestore();
 		}
 	} else {
 		itemRestore();
 		element.attr({"fill": "#FF0000"});
-		itemHighlight(target, strokeWidth);
+		if (!fill) {
+			itemHighlight(target, strokeWidth);
+		} else {
+			itemHighlight(target, null, fill);
+		}
 	}
 };
 
-var itemHighlight = function(target, strokeWidth) {
+var itemHighlight = function(target, strokeWidth, fill) {
 	layer1.attr({"stroke": "#b5b5b5"});
-	target.attr({"stroke": "#ff0000"});
-	if (strokeWidth) {
-		target.attr({"stroke-width": strokeWidth});
+	if (!fill) {
+		target.attr({"stroke": "#ff0000"});
+		if (strokeWidth) {
+			target.attr({"stroke-width": strokeWidth});
+		}
+	} else {
+		target.attr({"fill": "#ff0000"});
 	}
 };
 
-var itemRestore = function(target,strokeWidth) {
+var itemRestore = function(target, strokeWidth, fill) {
 	layer1.attr({"stroke": "#000000"});
-	if (target) {
+	if (target && strokeWidth) {
 		target.attr({"stroke-width": strokeWidth});
+	} else if (fill) {
+		target.attr({"fill": "#000000"});
 	}
 	for (var i = legenda.length - 1; i >= 0; i--) {
 		legenda[i].items[0].attr({"fill": "#FFFFFF"});
