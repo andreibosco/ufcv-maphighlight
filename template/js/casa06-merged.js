@@ -1069,7 +1069,7 @@ var hoverOutFill = function() {
 var textLegenda;
 textLegenda = rsr.text(15, 740, 'Legenda (clique nos itens abaixo)').attr({"font-size": '18px',"font-weight": 'bold',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var lineLegenda;
-lineLegenda = rsr.path("M15,753L650,753").attr({"stroke-width": "2"});
+lineLegenda = rsr.path("M15,753L740,753").attr({"stroke-width": "2"});
 
 // coluna 1
 rsr.setStart();
@@ -1094,65 +1094,65 @@ var itemProjCoberta = rsr.setFinish();
 
 // coluna 2
 rsr.setStart();
-var rectPiso = rsr.rect(180, 755, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
+var rectPiso = rsr.rect(180, 755, 220, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
 var textPiso = rsr.text(185, 770, 'aresta de piso').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPiso = rsr.setFinish();
 
 rsr.setStart();
-var rectParedeBaixa = rsr.rect(180, 755, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
+var rectParedeBaixa = rsr.rect(180, 755, 220, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
 var textParedeBaixa = rsr.text(185, 800, 'parede baixa (peitoril)').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemParedeBaixa = rsr.setFinish();
 
 rsr.setStart();
-var rectDesniveis = rsr.rect(180, 755, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
+var rectDesniveis = rsr.rect(180, 755, 220, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
 var textDesniveis = rsr.text(185, 830, 'desníveis').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemDesniveis = rsr.setFinish();
 
 rsr.setStart();
-var rectChamada = rsr.rect(180, 755, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
+var rectChamada = rsr.rect(180, 755, 220, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
 var textChamada = rsr.text(185, 860, 'linha de extensão ou chamada').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemChamada = rsr.setFinish();
 
 rsr.setStart();
-var rectCotas = rsr.rect(180, 755, 210, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,120");
+var rectCotas = rsr.rect(180, 755, 220, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,120");
 var textCotas = rsr.text(185, 890, 'linhas de cota').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemCotas = rsr.setFinish();
 
 // coluna 3
 rsr.setStart();
-var rectPortaCorrer = rsr.rect(400, 755, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
-var textPortaCorrer = rsr.text(405, 770, 'porta de correr').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectPortaCorrer = rsr.rect(410, 755, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
+var textPortaCorrer = rsr.text(415, 770, 'porta de correr').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPortaCorrer = rsr.setFinish();
 
 rsr.setStart();
-var rectPortaAbrir = rsr.rect(400, 755, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
-var textPortaAbrir = rsr.text(405, 800, 'porta de abrir').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectPortaAbrir = rsr.rect(410, 755, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
+var textPortaAbrir = rsr.text(415, 800, 'porta de abrir').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPortaAbrir = rsr.setFinish();
 
 rsr.setStart();
-var rectCorte = rsr.rect(400, 755, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
-var textCorte = rsr.text(405, 830, 'linha de corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectCorte = rsr.rect(410, 755, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
+var textCorte = rsr.text(415, 830, 'linha de corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemCorte = rsr.setFinish();
 
 rsr.setStart();
-var rectCorteDirecao = rsr.rect(400, 755, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
-var textCorteDirecao = rsr.text(405, 860, 'direção do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectCorteDirecao = rsr.rect(410, 755, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
+var textCorteDirecao = rsr.text(415, 860, 'direção do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemCorteDirecao = rsr.setFinish();
 
 rsr.setStart();
-var rectCorteLetra = rsr.rect(400, 755, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,120");
-var textCorteLetra = rsr.text(405, 890, 'letra do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectCorteLetra = rsr.rect(410, 755, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,120");
+var textCorteLetra = rsr.text(415, 890, 'letra do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemCorteLetra = rsr.setFinish();
 
 // coluna 4
 rsr.setStart();
-var rectParedeAlta = rsr.rect(560, 755, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
-var textParedeAlta = rsr.text(565, 770, 'parede alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectParedeAlta = rsr.rect(550, 755, 150, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
+var textParedeAlta = rsr.text(555, 770, 'parede alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemParedeAlta = rsr.setFinish();
 
 rsr.setStart();
-var rectPilar= rsr.rect(560, 755, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
-var textPilar = rsr.text(565, 800, 'pilar').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var rectPilar= rsr.rect(550, 755, 150, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
+var textPilar = rsr.text(555, 800, 'pilar').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPilar = rsr.setFinish();
 
 // legenda
@@ -1219,11 +1219,11 @@ itemParedeBaixa.click(function(){
 });
 
 itemDesniveis.click(function(){
-	itemSelect(itemDesniveis[0], desnivel);
+	itemSelect(itemDesniveis[0], desnivel, "3");
 });
 
 itemChamada.click(function(){
-	itemSelect(itemChamada[0], cotasChamadas);
+	itemSelect(itemChamada[0], cotasChamadas, "3");
 });
 
 itemCotas.click(function(){
@@ -1262,24 +1262,34 @@ itemPilar.click(function(){
 
 
 // funções
-var itemSelect = function(element, target) {
+var itemSelect = function(element, target, strokeWidth) {
 	if (element.attr("fill") === "#FF0000") {
 		element.attr({"fill": "#FFFFFF"});
-		itemRestore();
+		if (strokeWidth) {
+			itemRestore(target,"1");
+		} else {
+			itemRestore();
+		}
 	} else {
 		itemRestore();
 		element.attr({"fill": "#FF0000"});
-		itemHighlight(target);
+		itemHighlight(target, strokeWidth);
 	}
 };
 
-var itemHighlight = function(target) {
+var itemHighlight = function(target, strokeWidth) {
 	layer1.attr({"stroke": "#b5b5b5"});
-    target.attr({"stroke": "#ff0000"});
+	target.attr({"stroke": "#ff0000"});
+	if (strokeWidth) {
+		target.attr({"stroke-width": strokeWidth});
+	}
 };
 
-var itemRestore = function() {
+var itemRestore = function(target,strokeWidth) {
 	layer1.attr({"stroke": "#000000"});
+	if (target) {
+		target.attr({"stroke-width": strokeWidth});
+	}
 	for (var i = legenda.length - 1; i >= 0; i--) {
 		legenda[i].items[0].attr({"fill": "#FFFFFF"});
 		legenda[i].items[1].attr({"fill": "#000000"});
