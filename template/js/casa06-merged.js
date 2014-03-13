@@ -1028,43 +1028,6 @@ layer1.push(
 	desnivel
 );
 
-// mousehover
-var hoverIn = function() {
-	layer1.attr({"stroke": "#b5b5b5"});
-    this.attr({"stroke": "#ff0000"});
-};
-
-var hoverOut = function() {
-	layer1.attr({"stroke": "#000"});
-    this.attr({"stroke": "#000"});
-};
-
-var hoverInStroke = function() {
-	layer1.attr({"stroke": "#b5b5b5"});
-    this.attr({
-		"stroke": "#ff0000",
-		"stroke-width": "3"
-    });
-};
-
-var hoverOutStroke = function() {
-	layer1.attr({"stroke": "#000"});
-    this.attr({
-		"stroke": "#000",
-		"stroke-width": "1"
-    });
-};
-
-var hoverInFill = function() {
-	layer1.attr({"stroke": "#b5b5b5"});
-    this.attr({"fill": "#ff0000"});
-};
-
-var hoverOutFill = function() {
-	layer1.attr({"stroke": "#000"});
-    this.attr({"fill": "#000"});
-};
-
 // *** Legenda
 var textLegenda;
 textLegenda = rsr.text(15, 740, 'Legenda (clique nos itens abaixo)').attr({"font-size": '18px',"font-weight": 'bold',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
@@ -1263,6 +1226,16 @@ itemPilar.click(function(){
 
 // Funções
 
+// definindo objeto specialItem
+function specialItem(name, kind, value) {
+	this.name = name;
+	this.kind = kind;
+	this.value = value;
+}
+
+// array dos objetos especiais (ex.: texto, que usa fill no lugar de stroke)
+var specialItemList = [];
+
 var itemSelect = function(element, target, strokeWidth, fill) {
 // element: objeto da lista de legenda
 // target: objeto a ser destacado
@@ -1270,21 +1243,16 @@ var itemSelect = function(element, target, strokeWidth, fill) {
 // fill: boolean - define se o objeto terá fill ou stroke (padrão, false, é stroke)
 	if (element.attr("fill") === "#FF0000") {
 		element.attr({"fill": "#FFFFFF"});
-		if (strokeWidth) {
-			itemRestore(target,"1");
-		} else if (fill) {
-			itemRestore(target, null, true);
-		} else {
-			itemRestore();
-		}
+		itemRestore();
 	} else {
 		itemRestore();
 		element.attr({"fill": "#FF0000"});
-		if (!fill) {
-			itemHighlight(target, strokeWidth);
-		} else {
-			itemHighlight(target, null, fill);
+		if (strokeWidth) {
+			specialItemList.push(new specialItem(target, "stroke-width", target.attr("stroke-width")));
+		} else if (fill) {
+			specialItemList.push(new specialItem(target, "fill", target.attr("fill") ));
 		}
+		itemHighlight(target, strokeWidth, fill);
 	}
 };
 
@@ -1310,5 +1278,20 @@ var itemRestore = function(target, strokeWidth, fill) {
 	for (var i = legenda.length - 1; i >= 0; i--) {
 		legenda[i].items[0].attr({"fill": "#FFFFFF"});
 		legenda[i].items[1].attr({"fill": "#000000"});
+	}
+	if (specialItemList.length) {
+		for (var j = specialItemList.length - 1; j >= 0; j--) {
+			// código genêrico p/ substituir o IF -- não funciona
+			//var kind = specialItemList[j].kind;
+			//var value = specialItemList[j].value;
+			//specialItemList[j].name.attr({kind:value});
+
+			if (specialItemList[j].kind === "fill") {
+				specialItemList[j].name.attr({"fill":specialItemList[j].value});
+			} else if (specialItemList[j].kind === "stroke-width") {
+				specialItemList[j].name.attr({"stroke-width":specialItemList[j].value});
+			}
+			specialItemList.pop();
+		}
 	}
 };
