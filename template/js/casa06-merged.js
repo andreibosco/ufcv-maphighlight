@@ -6,7 +6,7 @@ rsr.setStart();
 var text6909 = rsr.text(367, 326, 'A').attr({"font-size": '11px',"font-weight": 'bold',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var text6921 = rsr.text(305, 1034, 'A').attr({"font-size": '11px',"font-weight": 'bold',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-315.93821");
 var text6885 = rsr.text(640, 770.5, 'B').attr({"font-size": '11px',"font-weight": 'bold',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6897 = rsr.text(106, 770.5, 'B').attr({"font-size": '11px',"font-weight": 'bold',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1',}).transform("t-1.4828368,-307.93821");
+var text6897 = rsr.text(106, 770.5, 'B').attr({"font-size": '11px',"font-weight": 'bold',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var cortesTexto = rsr.setFinish();
 
 rsr.setStart();
@@ -1057,53 +1057,53 @@ var itemProjCoberta = rsr.setFinish();
 
 // coluna 2
 rsr.setStart();
-var rectPiso = rsr.rect(180, 755, 220, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
+var rectPiso = rsr.rect(180, 755, 230, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
 var textPiso = rsr.text(185, 770, 'aresta de piso').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPiso = rsr.setFinish();
 
 rsr.setStart();
-var rectParedeBaixa = rsr.rect(180, 755, 220, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
+var rectParedeBaixa = rsr.rect(180, 755, 230, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
 var textParedeBaixa = rsr.text(185, 800, 'parede baixa (peitoril)').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemParedeBaixa = rsr.setFinish();
 
 rsr.setStart();
-var rectDesniveis = rsr.rect(180, 755, 220, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
+var rectDesniveis = rsr.rect(180, 755, 230, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
 var textDesniveis = rsr.text(185, 830, 'desníveis').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemDesniveis = rsr.setFinish();
 
 rsr.setStart();
-var rectChamada = rsr.rect(180, 755, 220, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
+var rectChamada = rsr.rect(180, 755, 230, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
 var textChamada = rsr.text(185, 860, 'linha de extensão ou chamada').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemChamada = rsr.setFinish();
 
 rsr.setStart();
-var rectCotas = rsr.rect(180, 755, 220, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,120");
+var rectCotas = rsr.rect(180, 755, 230, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,120");
 var textCotas = rsr.text(185, 890, 'linhas de cota').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemCotas = rsr.setFinish();
 
 // coluna 3
 rsr.setStart();
-var rectPortaCorrer = rsr.rect(410, 755, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
+var rectPortaCorrer = rsr.rect(410, 755, 140, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
 var textPortaCorrer = rsr.text(415, 770, 'porta de correr').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPortaCorrer = rsr.setFinish();
 
 rsr.setStart();
-var rectPortaAbrir = rsr.rect(410, 755, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
+var rectPortaAbrir = rsr.rect(410, 755, 140, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
 var textPortaAbrir = rsr.text(415, 800, 'porta de abrir').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPortaAbrir = rsr.setFinish();
 
 rsr.setStart();
-var rectCorte = rsr.rect(410, 755, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
+var rectCorte = rsr.rect(410, 755, 140, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
 var textCorte = rsr.text(415, 830, 'linha de corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemCorte = rsr.setFinish();
 
 rsr.setStart();
-var rectCorteDirecao = rsr.rect(410, 755, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
+var rectCorteDirecao = rsr.rect(410, 755, 140, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
 var textCorteDirecao = rsr.text(415, 860, 'direção do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemCorteDirecao = rsr.setFinish();
 
 rsr.setStart();
-var rectCorteLetra = rsr.rect(410, 755, 180, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,120");
+var rectCorteLetra = rsr.rect(410, 755, 140, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,120");
 var textCorteLetra = rsr.text(415, 890, 'letra do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemCorteLetra = rsr.setFinish();
 
@@ -1154,72 +1154,74 @@ legenda
 // }
 
 // Eventos click dos itens da legenda
+// FIXME: tive que adicionar [0] no final de cada objeto p/ evitar problemas no IE8, mas assim a função não é ativada caso seja clicado sobre o texto
 
 // coluna 1
-itemJanelaAlta.click(function(){
+itemJanelaAlta[0].click(function(){
 	itemSelect(itemJanelaAlta[0], janelasAltas);
 });
 
-itemFolhaJanelaAlta.click(function(){
+itemFolhaJanelaAlta[0].click(function(){
 	itemSelect(itemFolhaJanelaAlta[0], janelasAltas);
 });
 
-itemJanelaBaixa.click(function(){
+itemJanelaBaixa[0].click(function(){
 	itemSelect(itemJanelaBaixa[0], janelasBaixas);
 });
 
-itemProjCoberta.click(function(){
+itemProjCoberta[0].click(function(){
 	itemSelect(itemProjCoberta[0], projecaoCoberta);
 });
 
 // coluna 2
-itemPiso.click(function(){
+itemPiso[0].click(function(){
 	itemSelect(itemPiso[0], arestaPiso);
 });
 
-itemParedeBaixa.click(function(){
+itemParedeBaixa[0].click(function(){
 	itemSelect(itemParedeBaixa[0], paredesBaixas);
 });
 
-itemDesniveis.click(function(){
+itemDesniveis[0].click(function(){
 	itemSelect(itemDesniveis[0], desnivel, "3");
 });
 
-itemChamada.click(function(){
+itemChamada[0].click(function(){
 	itemSelect(itemChamada[0], cotasChamadas, "3");
 });
 
-itemCotas.click(function(){
+itemCotas[0].click(function(){
 	itemSelect(itemCotas[0], cotasLinhas);
 });
 
 // coluna 3
-itemPortaCorrer.click(function(){
+itemPortaCorrer[0].click(function(){
 	itemSelect(itemPortaCorrer[0], portaCorrer);
 });
 
-itemPortaAbrir.click(function(){
+itemPortaAbrir[0].click(function(){
 	itemSelect(itemPortaAbrir[0], portas);
 });
 
-itemCorte.click(function(){
+itemCorte[0].click(function(){
 	itemSelect(itemCorte[0], cortes);
 });
 
-itemCorteDirecao.click(function(){
+itemCorteDirecao[0].click(function(){
 	itemSelect(itemCorteDirecao[0], cortesDirecao);
 });
 
-itemCorteLetra.click(function(){
+itemCorteLetra[0].click(function(){
 	itemSelect(itemCorteLetra[0], cortesTexto, null, true);
 });
 
 // coluna 4
-itemParedeAlta.click(function(){
+itemParedeAlta[0].click(function(){
 	itemSelect(itemParedeAlta[0], paredes);
 });
 
-itemPilar.click(function(){
+//itemPilar.enabled = false;
+itemPilar[0].click(function(){
 	itemSelect(itemPilar[0], pilar);
 });
 
@@ -1241,10 +1243,11 @@ var itemSelect = function(element, target, strokeWidth, fill) {
 // target: objeto a ser destacado
 // strokeWidth: string - largura da linha
 // fill: boolean - define se o objeto terá fill ou stroke (padrão, false, é stroke)
-	if (element.attr("fill") === "#FF0000") {
-		element.attr({"fill": "#FFFFFF"});
+	if (element.enabled === true) {
+		element.enabled = false;
 		itemRestore();
 	} else {
+		element.enabled = true;
 		itemRestore();
 		element.attr({"fill": "#FF0000"});
 		if (strokeWidth) {
@@ -1270,15 +1273,12 @@ var itemHighlight = function(target, strokeWidth, fill) {
 
 var itemRestore = function(target, strokeWidth, fill) {
 	layer1.attr({"stroke": "#000000"});
-	if (target && strokeWidth) {
-		target.attr({"stroke-width": strokeWidth});
-	} else if (fill) {
-		target.attr({"fill": "#000000"});
-	}
-	for (var i = legenda.length - 1; i >= 0; i--) {
-		legenda[i].items[0].attr({"fill": "#FFFFFF"});
-		legenda[i].items[1].attr({"fill": "#000000"});
-	}
+	// reseta os atributos dos itens de legenda
+	// FIXME: problematico no IE8, o background dos itens fica preto e não branco
+	// for (var i = legenda.length - 1; i >= 0; i--) {
+	// 	legenda[i].items[0].attr({"fill": "#FFFFFF"});
+	// 	legenda[i].items[1].attr({"fill": "#000000"});
+	// }
 	if (specialItemList.length) {
 		for (var j = specialItemList.length - 1; j >= 0; j--) {
 			// código genêrico p/ substituir o IF -- não funciona
