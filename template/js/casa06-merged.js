@@ -1036,87 +1036,87 @@ lineLegenda = rsr.path("M15,753L740,753").attr({"stroke-width": "2"});
 
 // coluna 1
 rsr.setStart();
-var rectJanelaAlta = rsr.rect(10, 755, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
 var textJanelaAlta = rsr.text(15, 770, 'janela alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemJanelaAlta = rsr.setFinish();
+itemJanelaAlta.target = "janelasAltas";
 
 rsr.setStart();
-var rectFolhaJanelaAlta = rsr.rect(10, 755, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
 var textFolhaJanelaAlta = rsr.text(15, 800, 'folha de janela alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemFolhaJanelaAlta = rsr.setFinish();
+itemFolhaJanelaAlta.target = "janelasAltas";
 
 rsr.setStart();
-var rectJanelaBaixa = rsr.rect(10, 755, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
 var textJanelaBaixa = rsr.text(15, 830, 'janela baixa').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemJanelaBaixa = rsr.setFinish();
+itemJanelaBaixa.target = "janelasBaixas";
 
 rsr.setStart();
-var rectProjCoberta = rsr.rect(10, 755, 170, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
 var textProjCoberta = rsr.text(15, 860, 'projeção da coberta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemProjCoberta = rsr.setFinish();
+itemProjCoberta.target = "projecaoCoberta";
 
 // coluna 2
 rsr.setStart();
-var rectPiso = rsr.rect(180, 755, 230, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
 var textPiso = rsr.text(185, 770, 'aresta de piso').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPiso = rsr.setFinish();
+itemPiso.target = "arestaPiso";
 
 rsr.setStart();
-var rectParedeBaixa = rsr.rect(180, 755, 230, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
 var textParedeBaixa = rsr.text(185, 800, 'parede baixa (peitoril)').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemParedeBaixa = rsr.setFinish();
+itemParedeBaixa.target = "paredesBaixas";
 
 rsr.setStart();
-var rectDesniveis = rsr.rect(180, 755, 230, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
 var textDesniveis = rsr.text(185, 830, 'desníveis').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemDesniveis = rsr.setFinish();
+itemDesniveis.target = "desnivel";
 
 rsr.setStart();
-var rectChamada = rsr.rect(180, 755, 230, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
 var textChamada = rsr.text(185, 860, 'linha de extensão ou chamada').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemChamada = rsr.setFinish();
+itemChamada.target = "cotasChamadas";
 
 rsr.setStart();
-var rectCotas = rsr.rect(180, 755, 230, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,120");
 var textCotas = rsr.text(185, 890, 'linhas de cota').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemCotas = rsr.setFinish();
+itemCotas.target = "cotasLinhas";
 
 // coluna 3
 rsr.setStart();
-var rectPortaCorrer = rsr.rect(410, 755, 140, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
 var textPortaCorrer = rsr.text(415, 770, 'porta de correr').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPortaCorrer = rsr.setFinish();
+itemPortaCorrer.target = "portaCorrer";
 
 rsr.setStart();
-var rectPortaAbrir = rsr.rect(410, 755, 140, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
 var textPortaAbrir = rsr.text(415, 800, 'porta de abrir').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPortaAbrir = rsr.setFinish();
+itemPortaAbrir.target = "portas";
 
 rsr.setStart();
-var rectCorte = rsr.rect(410, 755, 140, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,60");
 var textCorte = rsr.text(415, 830, 'linha de corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemCorte = rsr.setFinish();
+itemCorte.target = "cortes";
 
 rsr.setStart();
-var rectCorteDirecao = rsr.rect(410, 755, 140, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,90");
 var textCorteDirecao = rsr.text(415, 860, 'direção do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemCorteDirecao = rsr.setFinish();
+itemCorteDirecao.target = "cortesDirecao";
 
 rsr.setStart();
-var rectCorteLetra = rsr.rect(410, 755, 140, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,120");
 var textCorteLetra = rsr.text(415, 890, 'letra do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemCorteLetra = rsr.setFinish();
+itemCorteLetra.target = "cortesTexto";
 
 // coluna 4
 rsr.setStart();
-var rectParedeAlta = rsr.rect(550, 755, 150, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'});
 var textParedeAlta = rsr.text(555, 770, 'parede alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemParedeAlta = rsr.setFinish();
+itemParedeAlta.target = "paredes";
 
 rsr.setStart();
-var rectPilar= rsr.rect(550, 755, 150, 30).attr({"stroke-width": '1',fill: '#ffffff',stroke: '#ffffff',"stroke-opacity": '1',"fill-opacity": '1'}).transform("t-0,30");
-var textPilar = rsr.text(555, 800, 'pilar').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var textPilar = rsr.text(555, 800, 'pilar').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'0.5','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPilar = rsr.setFinish();
+itemPilar.target = "pilar";
 
 // legenda
 var legenda = rsr.set();
@@ -1157,74 +1157,72 @@ legenda
 // FIXME: tive que adicionar [0] no final de cada objeto p/ evitar problemas no IE8, mas assim a função não é ativada caso seja clicado sobre o texto
 
 // coluna 1
-itemJanelaAlta[0].click(function(){
-	itemSelect(itemJanelaAlta[0], janelasAltas);
+itemJanelaAlta.click(function(){
+	itemSelect(itemJanelaAlta, janelasAltas);
 });
 
-itemFolhaJanelaAlta[0].click(function(){
-	itemSelect(itemFolhaJanelaAlta[0], janelasAltas);
+itemFolhaJanelaAlta.click(function(){
+	itemSelect(itemFolhaJanelaAlta, janelasAltas);
 });
 
-itemJanelaBaixa[0].click(function(){
-	itemSelect(itemJanelaBaixa[0], janelasBaixas);
+itemJanelaBaixa.click(function(){
+	itemSelect(itemJanelaBaixa, janelasBaixas);
 });
 
-itemProjCoberta[0].click(function(){
-	itemSelect(itemProjCoberta[0], projecaoCoberta);
+itemProjCoberta.click(function(){
+	itemSelect(itemProjCoberta, projecaoCoberta);
 });
 
 // coluna 2
-itemPiso[0].click(function(){
-	itemSelect(itemPiso[0], arestaPiso);
+itemPiso.click(function(){
+	itemSelect(itemPiso, arestaPiso);
 });
 
-itemParedeBaixa[0].click(function(){
-	itemSelect(itemParedeBaixa[0], paredesBaixas);
+itemParedeBaixa.click(function(){
+	itemSelect(itemParedeBaixa, paredesBaixas);
 });
 
-itemDesniveis[0].click(function(){
-	itemSelect(itemDesniveis[0], desnivel, "3");
+itemDesniveis.click(function(){
+	itemSelect(itemDesniveis, desnivel, "3");
 });
 
-itemChamada[0].click(function(){
-	itemSelect(itemChamada[0], cotasChamadas, "3");
+itemChamada.click(function(){
+	itemSelect(itemChamada, cotasChamadas, "3");
 });
 
-itemCotas[0].click(function(){
-	itemSelect(itemCotas[0], cotasLinhas);
+itemCotas.click(function(){
+	itemSelect(itemCotas, cotasLinhas);
 });
 
 // coluna 3
-itemPortaCorrer[0].click(function(){
-	itemSelect(itemPortaCorrer[0], portaCorrer);
+itemPortaCorrer.click(function(){
+	itemSelect(itemPortaCorrer, portaCorrer);
 });
 
-itemPortaAbrir[0].click(function(){
-	itemSelect(itemPortaAbrir[0], portas);
+itemPortaAbrir.click(function(){
+	itemSelect(itemPortaAbrir, portas);
 });
 
-itemCorte[0].click(function(){
-	itemSelect(itemCorte[0], cortes);
+itemCorte.click(function(){
+	itemSelect(itemCorte, cortes);
 });
 
-itemCorteDirecao[0].click(function(){
-	itemSelect(itemCorteDirecao[0], cortesDirecao);
+itemCorteDirecao.click(function(){
+	itemSelect(itemCorteDirecao, cortesDirecao);
 });
 
-itemCorteLetra[0].click(function(){
-	itemSelect(itemCorteLetra[0], cortesTexto, null, true);
+itemCorteLetra.click(function(){
+	itemSelect(itemCorteLetra, cortesTexto, null, true);
 });
 
 // coluna 4
-itemParedeAlta[0].click(function(){
-	itemSelect(itemParedeAlta[0], paredes);
+itemParedeAlta.click(function(){
+	itemSelect(itemParedeAlta, paredes);
 });
 
-//itemPilar.enabled = false;
-itemPilar[0].click(function(){
-	itemSelect(itemPilar[0], pilar);
+itemPilar.click(function(){
+	itemSelect(itemPilar, pilar);
 });
-
 
 // Funções
 
@@ -1256,12 +1254,14 @@ var itemSelect = function(element, target, strokeWidth, fill) {
 			specialItemList.push(new specialItem(target, "fill", target.attr("fill") ));
 		}
 		itemHighlight(target, strokeWidth, fill);
+
 	}
 };
 
 var itemHighlight = function(target, strokeWidth, fill) {
 	layer1.attr({"stroke": "#b5b5b5"});
 	if (!fill) {
+		//janelasAltas.attr({"stroke": "#ff0000"});
 		target.attr({"stroke": "#ff0000"});
 		if (strokeWidth) {
 			target.attr({"stroke-width": strokeWidth});
@@ -1295,3 +1295,24 @@ var itemRestore = function(target, strokeWidth, fill) {
 		}
 	}
 };
+
+for (var i = legenda.length - 1; i >= 0; i--) {
+	if (navigator.userAgent.match(/msie/i)) {
+		legenda[i].attr({
+			"stroke": "#FFFFFF",
+			"stroke-width": "0.5"
+		});
+	}
+	//legenda[i].click("click", itemClick(legenda[i], legenda[i].target));
+	// var target = legenda[i].target;
+	// console.info(target);
+	// legenda[i].click(function(){
+	// 	console.info("loop: " + target);
+	// 	itemSelect(this, target);
+	// });
+}
+
+// function itemClick(element, target) {
+// 	//itemSelect(element, target);
+// 	element.click(function())
+// }
