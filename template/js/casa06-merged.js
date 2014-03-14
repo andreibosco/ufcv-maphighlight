@@ -1147,14 +1147,7 @@ legenda
 		"cursor": "pointer"
 	});
 
-// for (var i = legenda.length - 1; i >= 0; i--) {
-// 	legenda[i].click(function(){
-// 		itemSelect(legenda[i], janelasAltas);
-// 	})
-// }
-
 // Eventos click dos itens da legenda
-// FIXME: tive que adicionar [0] no final de cada objeto p/ evitar problemas no IE8, mas assim a função não é ativada caso seja clicado sobre o texto
 
 // coluna 1
 itemJanelaAlta.click(function(){
@@ -1242,11 +1235,10 @@ var itemSelect = function(element, target, strokeWidth, fill) {
 // strokeWidth: string - largura da linha
 // fill: boolean - define se o objeto terá fill ou stroke (padrão, false, é stroke)
 	if (element.enabled === true) {
-		element.enabled = false;
 		itemRestore();
 	} else {
-		element.enabled = true;
 		itemRestore();
+		element.enabled = true;
 		element.attr({"fill": "#FF0000"});
 		if (strokeWidth) {
 			specialItemList.push(new specialItem(target, "stroke-width", target.attr("stroke-width")));
@@ -1274,11 +1266,10 @@ var itemHighlight = function(target, strokeWidth, fill) {
 var itemRestore = function(target, strokeWidth, fill) {
 	layer1.attr({"stroke": "#000000"});
 	// reseta os atributos dos itens de legenda
-	// FIXME: problematico no IE8, o background dos itens fica preto e não branco
-	// for (var i = legenda.length - 1; i >= 0; i--) {
-	// 	legenda[i].items[0].attr({"fill": "#FFFFFF"});
-	// 	legenda[i].items[1].attr({"fill": "#000000"});
-	// }
+	for (var i = legenda.length - 1; i >= 0; i--) {
+		legenda[i].attr({"fill": "#000000"});
+		legenda[i].enabled = false;
+	}
 	if (specialItemList.length) {
 		for (var j = specialItemList.length - 1; j >= 0; j--) {
 			// código genêrico p/ substituir o IF -- não funciona
