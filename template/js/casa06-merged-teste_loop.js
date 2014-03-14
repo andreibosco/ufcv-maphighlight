@@ -1038,69 +1038,85 @@ lineLegenda = rsr.path("M15,753L740,753").attr({"stroke-width": "2"});
 rsr.setStart();
 var textJanelaAlta = rsr.text(15, 770, 'janela alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemJanelaAlta = rsr.setFinish();
+itemJanelaAlta.target = janelasAltas;
 
 rsr.setStart();
 var textFolhaJanelaAlta = rsr.text(15, 800, 'folha de janela alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemFolhaJanelaAlta = rsr.setFinish();
+itemFolhaJanelaAlta.target = janelasAltas;
 
 rsr.setStart();
 var textJanelaBaixa = rsr.text(15, 830, 'janela baixa').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemJanelaBaixa = rsr.setFinish();
+itemJanelaBaixa.target = janelasBaixas;
 
 rsr.setStart();
 var textProjCoberta = rsr.text(15, 860, 'projeção da coberta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemProjCoberta = rsr.setFinish();
+itemProjCoberta.target = projecaoCoberta;
 
 // coluna 2
 rsr.setStart();
 var textPiso = rsr.text(185, 770, 'aresta de piso').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPiso = rsr.setFinish();
+itemPiso.target = arestaPiso;
 
 rsr.setStart();
 var textParedeBaixa = rsr.text(185, 800, 'parede baixa (peitoril)').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemParedeBaixa = rsr.setFinish();
+itemParedeBaixa.target = paredesBaixas;
 
 rsr.setStart();
 var textDesniveis = rsr.text(185, 830, 'desníveis').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemDesniveis = rsr.setFinish();
+itemDesniveis.target = desnivel;
 
 rsr.setStart();
 var textChamada = rsr.text(185, 860, 'linha de extensão ou chamada').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemChamada = rsr.setFinish();
+itemChamada.target = cotasChamadas;
 
 rsr.setStart();
 var textCotas = rsr.text(185, 890, 'linhas de cota').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemCotas = rsr.setFinish();
+itemCotas.target = cotasLinhas;
 
 // coluna 3
 rsr.setStart();
 var textPortaCorrer = rsr.text(415, 770, 'porta de correr').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPortaCorrer = rsr.setFinish();
+itemPortaCorrer.target = portaCorrer;
 
 rsr.setStart();
 var textPortaAbrir = rsr.text(415, 800, 'porta de abrir').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPortaAbrir = rsr.setFinish();
+itemPortaAbrir.target = portas;
 
 rsr.setStart();
 var textCorte = rsr.text(415, 830, 'linha de corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemCorte = rsr.setFinish();
+itemCorte.target = cortes;
 
 rsr.setStart();
 var textCorteDirecao = rsr.text(415, 860, 'direção do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemCorteDirecao = rsr.setFinish();
+itemCorteDirecao.target = cortesDirecao;
 
 rsr.setStart();
 var textCorteLetra = rsr.text(415, 890, 'letra do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemCorteLetra = rsr.setFinish();
+itemCorteLetra.target = cortesTexto;
 
 // coluna 4
 rsr.setStart();
 var textParedeAlta = rsr.text(555, 770, 'parede alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemParedeAlta = rsr.setFinish();
+itemParedeAlta.target = paredes;
 
 rsr.setStart();
 var textPilar = rsr.text(555, 800, 'pilar').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'0.5','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPilar = rsr.setFinish();
+itemPilar.target = pilar;
 
 // legenda
 var legenda = rsr.set();
@@ -1134,9 +1150,9 @@ legenda
 // Eventos click dos itens da legenda
 
 // coluna 1
-itemJanelaAlta.click(function(){
-	itemSelect(itemJanelaAlta, janelasAltas);
-});
+// itemJanelaAlta.click(function(){
+// 	itemSelect(itemJanelaAlta, janelasAltas);
+// });
 
 itemFolhaJanelaAlta.click(function(){
 	itemSelect(itemFolhaJanelaAlta, janelasAltas);
@@ -1237,6 +1253,7 @@ var itemSelect = function(element, target, strokeWidth, fill) {
 var itemHighlight = function(target, strokeWidth, fill) {
 	layer1.attr({"stroke": "#b5b5b5"});
 	if (!fill) {
+		//console.info(target);
 		target.attr({"stroke": "#ff0000"});
 		if (strokeWidth) {
 			target.attr({"stroke-width": strokeWidth});
@@ -1253,9 +1270,13 @@ var itemRestore = function(target, strokeWidth, fill) {
 		legenda[i].attr({"fill": "#000000"});
 		legenda[i].enabled = false;
 	}
-	// caso exista algum item especial no array, retorna aos valores originais salvos
 	if (specialItemList.length) {
 		for (var j = specialItemList.length - 1; j >= 0; j--) {
+			// código genêrico p/ substituir o IF -- não funciona
+			//var kind = specialItemList[j].kind;
+			//var value = specialItemList[j].value;
+			//specialItemList[j].name.attr({kind:value});
+
 			if (specialItemList[j].kind === "fill") {
 				specialItemList[j].name.attr({"fill":specialItemList[j].value});
 			} else if (specialItemList[j].kind === "stroke-width") {
@@ -1266,12 +1287,26 @@ var itemRestore = function(target, strokeWidth, fill) {
 	}
 };
 
-// IE8: seta stroke-width nos textos da legenda p/ evitar dificuldade em clicar sobre os itens
-for (var i = legenda.length - 1; i >= 0; i--) {
-	if (navigator.userAgent.match(/msie/i)) {
-		legenda[i].attr({
-			"stroke": "#FFFFFF",
-			"stroke-width": "0.5"
+$(document).ready(function(){
+	for (var i = legenda.length - 1; i >= 0; i--) {
+		if (navigator.userAgent.match(/msie/i)) {
+			legenda[i].attr({
+				"stroke": "#FFFFFF",
+				"stroke-width": "0.5"
+			});
+		}
+		//legenda[i].click("click", itemClick(legenda[i], legenda[i].target));
+		var target = legenda[i].target;
+		legenda[i].click(function(){
+			console.info(target);
+			itemSelect(this, target);
 		});
 	}
-}
+});
+
+
+
+// function itemClick(element, target) {
+// 	//itemSelect(element, target);
+// 	element.click(function())
+// }
