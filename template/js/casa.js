@@ -996,7 +996,11 @@ var path4988 = rsr.path("m 154.17341,901.34781 292.26145,0").attr({fill: 'none',
 var arestaPiso = rsr.setFinish();
 
 rsr.setStart();
-var path53650 = rsr.path("m 276.81941,611.31737 35.84502,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var path6924 = rsr.path("m 399.97944,482.24849 40.50123,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path6923 = rsr.path("m 310.69098,296.64833 -34.65935,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path6920 = rsr.path("m 259.55312,229.62835 -26.80103,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path6922 = rsr.path("m 260.2113,236.21011 -26.80103,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path6926 = rsr.path("m 508.90295,691.54443 0,-26.9435").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'}).transform("t-1.4828368,-308.81578");
 var desnivel = rsr.setFinish();
 
 //var rsrGroups = [layer1,cotasLinhas,cotasCirculos,paredes,paredesBaixas,projecaoCoberta,janelasAltas,janelasBaixas,portas,hachuras,cotasEsquerda,cotasSuperior,cotasDireita,pilar,areasCotas,cortes,cotaPiso,paredeBancadaCozinha,cotaInferior];
