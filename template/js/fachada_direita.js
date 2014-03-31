@@ -13,9 +13,7 @@ var path17816 = rsr.path("m 419.06832,258.3579 0,-155.78673").attr({fill: 'none'
 var paredes = rsr.setFinish();
 
 rsr.setStart();
-var path17820 = rsr.path("m 392.20853,150.91879 0,-26.85979").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path17822 = rsr.path("m 392.20853,150.91879 0,-26.85979").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path17824 = rsr.path("m 351.91885,148.23281 0,-21.48783").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+
 var path17826 = rsr.path("m 83.320962,193.89445 0,-75.20741 44.318678,0 44.31868,0 0,75.20741 -44.31868,0 -44.318678,0 z").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17828 = rsr.path("m 130.32562,132.11695 0,-10.74393 38.94672,0 0,10.74393").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17830 = rsr.path("m 127.63964,132.11695 44.31868,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
@@ -47,13 +45,13 @@ var path17880 = rsr.path("m 502.33367,132.11695 0,-10.74393").attr({fill: 'none'
 var path17882 = rsr.path("m 124.95366,134.80293 0,56.40554 -38.946719,0 0,-56.40554 38.946719,0 z").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17884 = rsr.path("m 130.32562,191.20847 0,-56.40554 38.94672,0 0,56.40554 -38.94672,0 z").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17886 = rsr.path("m 127.63964,118.68704 0,75.20741").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path17888 = rsr.path("m 130.32562,134.80293 19.47337,56.40554 19.47335,-56.40554").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path17890 = rsr.path("m 86.006941,134.80293 19.473369,56.40554 19.47335,-56.40554").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path17888 = rsr.path("m 130.32562,134.80293 19.47337,56.40554 19.47335,-56.40554").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1','stroke-dasharray': '--'});
+var path17890 = rsr.path("m 86.006941,134.80293 19.473369,56.40554 19.47335,-56.40554").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1','stroke-dasharray': '--'});
 var path17892 = rsr.path("m 349.23287,124.059 42.97566,0 0,26.85979 -42.97566,0 0,-26.85979 z").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17894 = rsr.path("m 351.91885,148.23281 0,-21.48783 37.6037,0 0,21.48783 -37.6037,0 z").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path17896 = rsr.path("m 351.91885,126.74498 18.80185,21.48783 18.80185,-21.48783").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path17898 = rsr.path("M 502.33367,134.80293 484.8748,191.20847 467.41594,134.80293").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path17900 = rsr.path("m 507.70562,134.80293 17.45887,56.40554 17.45886,-56.40554").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path17896 = rsr.path("m 351.91885,126.74498 18.80185,21.48783 18.80185,-21.48783").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1','stroke-dasharray': '--'});
+var path17898 = rsr.path("M 502.33367,134.80293 484.8748,191.20847 467.41594,134.80293").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1','stroke-dasharray': '--'});
+var path17900 = rsr.path("m 507.70562,134.80293 17.45887,56.40554 17.45886,-56.40554").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1','stroke-dasharray': '--'});
 var path17902 = rsr.path("m 502.33367,134.80293 -34.91773,0 0,56.40554 34.91773,0 0,-56.40554 z").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var janelas = rsr.setFinish();
 
