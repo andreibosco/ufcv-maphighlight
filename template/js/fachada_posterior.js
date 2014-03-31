@@ -47,6 +47,10 @@ var path17082 = rsr.path("m 396.2375,152.23281 17.45886,-21.48783").attr({fill: 
 var janelaCozinha = rsr.setFinish();
 
 rsr.setStart();
+var path17744 = rsr.path("m 83.887981,260.58226 -0.278697,-177.530373 49.608166,-8.360929 10e-6,186.170002 z").attr({fill: '#ffffff',"fill-opacity": '1',stroke: 'none','stroke-width':'0','stroke-opacity':'1'});
+var paredeWC = rsr.setFinish();
+
+rsr.setStart();
 var path17090 = rsr.path("m 690.8101,62.50928 -274.42776,-47.44046 0,2.68598 273.96985,47.40113 0.45791,-2.64665 0,0 z").attr({fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
 var path17092 = rsr.path("m 690.79914,62.57264 0.73266,-4.23466 -20.27036,-1.39164 -0.36633,2.11733").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17094 = rsr.path("m 670.89511,59.06367 0.73267,-4.23466 -21.5396,-1.54598 -0.36633,2.11733").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
@@ -167,7 +171,7 @@ itemJanelaCozinha.click(function(){
 });
 
 itemParedeWC.click(function(){
-	itemSelect(itemParedeWC, janelaSala);
+	itemSelect(itemParedeWC, paredeWC, null, true);
 });
 
 itemLinhaFina.click(function(){
@@ -233,7 +237,9 @@ var itemRestore = function(target, strokeWidth, fill) {
 	if (specialItemList.length) {
 		for (var j = specialItemList.length - 1; j >= 0; j--) {
 			if (specialItemList[j].kind === "fill") {
-				specialItemList[j].name.attr({"fill":specialItemList[j].value});
+				//specialItemList[j].name.attr({"fill":specialItemList[j].value});
+				// HACK: valor original não está sendo lido, então estou setando manualmente como branco
+				specialItemList[j].name.attr({"fill":"#ffffff"});
 			} else if (specialItemList[j].kind === "stroke-width") {
 				specialItemList[j].name.attr({"stroke-width":specialItemList[j].value});
 			}
