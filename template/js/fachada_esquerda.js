@@ -1,4 +1,4 @@
-var rsr = new Raphael('rsr', '745', '900');
+var rsr = new Raphael('rsr', '745', '550');
 
 var layer1 = rsr.set();
 
