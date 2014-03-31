@@ -23,6 +23,11 @@ var path13700 = rsr.path("m 114.43475,182.22547 0,-21.49009").attr({fill: 'none'
 var path13702 = rsr.path("m 114.43475,182.22547 0,-21.49009").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path13704 = rsr.path("m 114.43475,160.73538 16.11757,21.49009").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path13706 = rsr.path("m 130.55232,182.22547 16.11757,-21.49009").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path14518 = rsr.path("m 111.74849,184.91174 0,-26.86262").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var janelaServico = rsr.setFinish();
+
+rsr.setStart();
+var path14520 = rsr.path("m 190.72458,184.91174 0,-26.86262").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path13708 = rsr.path("m 228.33224,158.04912 0,26.86262 -37.60766,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path13710 = rsr.path("m 225.64598,160.73538 0,21.49009 -32.23514,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path13712 = rsr.path("m 193.41084,160.73538 32.23514,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
@@ -31,33 +36,9 @@ var path13716 = rsr.path("m 193.41084,182.22547 0,-21.49009").attr({fill: 'none'
 var path13718 = rsr.path("m 193.41084,182.22547 0,-21.49009").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path13720 = rsr.path("m 193.41084,160.73538 16.11757,21.49009").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path13722 = rsr.path("m 209.52841,182.22547 16.11757,-21.49009").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13724 = rsr.path("m 531.87981,152.6766 40.29393,0 0,75.21532 -40.29393,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13726 = rsr.path("m 534.56608,155.36286 34.9214,0 0,10.74506").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13728 = rsr.path("m 569.48748,168.79418 0,56.41148 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13730 = rsr.path("m 534.56608,168.79418 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13732 = rsr.path("m 531.87981,166.10792 40.29393,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13734 = rsr.path("m 534.56608,163.42166 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13736 = rsr.path("m 534.56608,160.7354 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13738 = rsr.path("m 534.56608,158.04913 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13740 = rsr.path("m 531.87981,227.89192 0,-75.21532").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13742 = rsr.path("m 534.56608,225.20566 0,-56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13744 = rsr.path("m 534.56608,166.10792 0,-10.74506").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13746 = rsr.path("m 534.56608,168.79418 17.4607,56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13748 = rsr.path("m 552.02678,225.20566 17.4607,-56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13750 = rsr.path("m 491.58589,227.89192 0,-75.21532").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13752 = rsr.path("m 531.87981,152.6766 -40.29392,0 0,75.21532 40.29392,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13754 = rsr.path("m 529.19355,155.36286 -34.9214,0 0,10.74506").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13756 = rsr.path("m 494.27215,168.79418 0,56.41148 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13758 = rsr.path("m 529.19355,168.79418 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13760 = rsr.path("m 531.87981,166.10792 -40.29392,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13762 = rsr.path("m 529.19355,163.42166 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13764 = rsr.path("m 529.19355,160.7354 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13766 = rsr.path("m 529.19355,158.04913 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13768 = rsr.path("m 531.87981,227.89192 0,-75.21532").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13770 = rsr.path("m 529.19355,225.20566 0,-56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13772 = rsr.path("m 529.19355,166.10792 0,-10.74506").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13774 = rsr.path("m 529.19355,168.79418 -17.4607,56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13776 = rsr.path("m 511.73285,225.20566 -17.4607,-56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var janelaWC = rsr.setFinish();
+
+rsr.setStart();
 var path13778 = rsr.path("m 420.39993,152.67658 4.02942,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path13780 = rsr.path("m 423.08619,155.36285 1.34316,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path13782 = rsr.path("m 460.96251,168.79417 0,56.41148 -20.41559,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
@@ -94,9 +75,37 @@ var path13842 = rsr.path("m 440.54692,168.79417 20.41559,0").attr({fill: 'none',
 var path13844 = rsr.path("m 440.54692,219.36999 2.01469,5.83566").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path13846 = rsr.path("m 424.42935,225.20565 -1.34316,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path13848 = rsr.path("m 424.42935,227.89191 -4.02942,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path14518 = rsr.path("m 111.74849,184.91174 0,-26.86262").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path14520 = rsr.path("m 190.72458,184.91174 0,-26.86262").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var janelas = rsr.setFinish();
+var janelaSala = rsr.setFinish();
+
+rsr.setStart();
+var path13724 = rsr.path("m 531.87981,152.6766 40.29393,0 0,75.21532 -40.29393,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13726 = rsr.path("m 534.56608,155.36286 34.9214,0 0,10.74506").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13728 = rsr.path("m 569.48748,168.79418 0,56.41148 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13730 = rsr.path("m 534.56608,168.79418 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13732 = rsr.path("m 531.87981,166.10792 40.29393,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13734 = rsr.path("m 534.56608,163.42166 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13736 = rsr.path("m 534.56608,160.7354 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13738 = rsr.path("m 534.56608,158.04913 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13740 = rsr.path("m 531.87981,227.89192 0,-75.21532").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13742 = rsr.path("m 534.56608,225.20566 0,-56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13744 = rsr.path("m 534.56608,166.10792 0,-10.74506").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13746 = rsr.path("m 534.56608,168.79418 17.4607,56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13748 = rsr.path("m 552.02678,225.20566 17.4607,-56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13750 = rsr.path("m 491.58589,227.89192 0,-75.21532").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13752 = rsr.path("m 531.87981,152.6766 -40.29392,0 0,75.21532 40.29392,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13754 = rsr.path("m 529.19355,155.36286 -34.9214,0 0,10.74506").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13756 = rsr.path("m 494.27215,168.79418 0,56.41148 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13758 = rsr.path("m 529.19355,168.79418 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13760 = rsr.path("m 531.87981,166.10792 -40.29392,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13762 = rsr.path("m 529.19355,163.42166 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13764 = rsr.path("m 529.19355,160.7354 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13766 = rsr.path("m 529.19355,158.04913 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13768 = rsr.path("m 531.87981,227.89192 0,-75.21532").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13770 = rsr.path("m 529.19355,225.20566 0,-56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13772 = rsr.path("m 529.19355,166.10792 0,-10.74506").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13774 = rsr.path("m 529.19355,168.79418 -17.4607,56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path13776 = rsr.path("m 511.73285,225.20566 -17.4607,-56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var janelaQuartoCasal = rsr.setFinish();
 
 rsr.setStart();
 var path13852 = rsr.path("m 0,292.3622 744.09449,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '3','stroke-opacity': '1'});
@@ -967,108 +976,49 @@ layer1.push(
 	paredes,
 	paredesFundo,
 	pilares,
-	janelas,
-	coberta
+	coberta,
+	janelaServico,
+	janelaWC,
+	janelaSala,
+	janelaQuartoCasal
 );
 
 // *** Legenda
 var textLegenda;
-textLegenda = rsr.text(15, 740, 'Legenda (clique nos itens abaixo)').attr({"font-size": '18px',"font-weight": 'bold',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+textLegenda = rsr.text(15, 370, 'Legenda (clique nos itens abaixo)').attr({"font-size": '18px',"font-weight": 'bold',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var lineLegenda;
-lineLegenda = rsr.path("M15,753L740,753").attr({"stroke-width": "2"});
+lineLegenda = rsr.path("M15,383L735,383").attr({"stroke-width": "2"});
 
 // coluna 1
 rsr.setStart();
-var textJanelaAlta = rsr.text(15, 770, 'janela alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemJanelaAlta = rsr.setFinish();
+var textPilares = rsr.text(15, 400, 'pilares').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemPilares = rsr.setFinish();
 
 rsr.setStart();
-var textFolhaJanelaAlta = rsr.text(15, 800, 'folha de janela alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemFolhaJanelaAlta = rsr.setFinish();
+var textJanelaQuartoCasal = rsr.text(15, 430, 'janela baixa do quarto de casal').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemJanelaQuartoCasal = rsr.setFinish();
 
 rsr.setStart();
-var textJanelaBaixa = rsr.text(15, 830, 'janela baixa').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemJanelaBaixa = rsr.setFinish();
+var textJanelaSala = rsr.text(15, 460, 'janela baixa da sala').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemJanelaSala = rsr.setFinish();
 
 rsr.setStart();
-var textProjCoberta = rsr.text(15, 860, 'projeção da coberta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemProjCoberta = rsr.setFinish();
-
-// coluna 2
-rsr.setStart();
-var textPiso = rsr.text(185, 770, 'aresta de piso').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemPiso = rsr.setFinish();
+var textJanelaWC = rsr.text(15, 490, 'janela alta do WC de serviço').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemJanelaWC = rsr.setFinish();
 
 rsr.setStart();
-var textParedeBaixa = rsr.text(185, 800, 'parede baixa (peitoril)').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemParedeBaixa = rsr.setFinish();
-
-rsr.setStart();
-var textDesniveis = rsr.text(185, 830, 'desníveis').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemDesniveis = rsr.setFinish();
-
-rsr.setStart();
-var textChamada = rsr.text(185, 860, 'linha de extensão ou chamada').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemChamada = rsr.setFinish();
-
-rsr.setStart();
-var textCotas = rsr.text(185, 890, 'linhas de cota').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemCotas = rsr.setFinish();
-
-// coluna 3
-rsr.setStart();
-var textPortaCorrer = rsr.text(415, 770, 'porta de correr').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemPortaCorrer = rsr.setFinish();
-
-rsr.setStart();
-var textPortaAbrir = rsr.text(415, 800, 'porta de abrir').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemPortaAbrir = rsr.setFinish();
-
-rsr.setStart();
-var textCorte = rsr.text(415, 830, 'linha de corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemCorte = rsr.setFinish();
-
-rsr.setStart();
-var textCorteDirecao = rsr.text(415, 860, 'direção do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemCorteDirecao = rsr.setFinish();
-
-rsr.setStart();
-var textCorteLetra = rsr.text(415, 890, 'letra do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemCorteLetra = rsr.setFinish();
-
-// coluna 4
-rsr.setStart();
-var textParedeAlta = rsr.text(555, 770, 'parede alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemParedeAlta = rsr.setFinish();
-
-rsr.setStart();
-var textPilar = rsr.text(555, 800, 'pilar').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'0.5','stroke-opacity':'1',"font-family": 'Sans'});
-var itemPilar = rsr.setFinish();
+var textJanelaServico = rsr.text(15, 520, 'janela alta da área de serviço').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemJanelaServico = rsr.setFinish();
 
 // legenda
 var legenda = rsr.set();
 legenda
 	.push(
-		// coluna 1
-		itemJanelaAlta,
-		itemFolhaJanelaAlta,
-		itemJanelaBaixa,
-		itemProjCoberta,
-		// coluna 2
-		itemPiso,
-		itemParedeBaixa,
-		itemDesniveis,
-		itemChamada,
-		itemCotas,
-		// coluna 3
-		itemPortaCorrer,
-		itemPortaAbrir,
-		itemCorte,
-		itemCorteDirecao,
-		itemCorteLetra,
-		// coluna 4
-		itemParedeAlta,
-		itemPilar
+		itemPilares,
+		itemJanelaQuartoCasal,
+		itemJanelaSala,
+		itemJanelaWC,
+		itemJanelaServico
 	)
 	.attr({
 		"cursor": "pointer"
@@ -1077,73 +1027,25 @@ legenda
 // Eventos click dos itens da legenda
 
 // coluna 1
-itemJanelaAlta.click(function(){
-	itemSelect(itemJanelaAlta, janelasAltas);
+itemPilares.click(function(){
+	itemSelect(itemPilares, pilares);
 });
 
-itemFolhaJanelaAlta.click(function(){
-	itemSelect(itemFolhaJanelaAlta, janelasAltas);
+itemJanelaQuartoCasal.click(function(){
+	itemSelect(itemJanelaQuartoCasal, janelaQuartoCasal);
 });
 
-itemJanelaBaixa.click(function(){
-	itemSelect(itemJanelaBaixa, janelasBaixas);
+itemJanelaSala.click(function(){
+	itemSelect(itemJanelaSala, janelaSala);
 });
 
-itemProjCoberta.click(function(){
-	itemSelect(itemProjCoberta, projecaoCoberta);
+itemJanelaWC.click(function(){
+	itemSelect(itemJanelaWC, janelaWC);
 });
 
-// coluna 2
-itemPiso.click(function(){
-	itemSelect(itemPiso, arestaPiso);
+itemJanelaServico.click(function(){
+	itemSelect(itemJanelaServico, janelaServico);
 });
-
-itemParedeBaixa.click(function(){
-	itemSelect(itemParedeBaixa, paredesBaixas);
-});
-
-itemDesniveis.click(function(){
-	itemSelect(itemDesniveis, desnivel, "3");
-});
-
-itemChamada.click(function(){
-	itemSelect(itemChamada, cotasChamadas, "3");
-});
-
-itemCotas.click(function(){
-	itemSelect(itemCotas, cotasLinhas);
-});
-
-// coluna 3
-itemPortaCorrer.click(function(){
-	itemSelect(itemPortaCorrer, portaCorrer);
-});
-
-itemPortaAbrir.click(function(){
-	itemSelect(itemPortaAbrir, portas);
-});
-
-itemCorte.click(function(){
-	itemSelect(itemCorte, cortes);
-});
-
-itemCorteDirecao.click(function(){
-	itemSelect(itemCorteDirecao, cortesDirecao);
-});
-
-itemCorteLetra.click(function(){
-	itemSelect(itemCorteLetra, cortesTexto, null, true);
-});
-
-// coluna 4
-itemParedeAlta.click(function(){
-	itemSelect(itemParedeAlta, paredes);
-});
-
-itemPilar.click(function(){
-	itemSelect(itemPilar, pilar);
-});
-
 // Funções
 
 // definindo objeto specialItem
