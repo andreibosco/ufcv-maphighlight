@@ -47,7 +47,7 @@ var path17082 = rsr.path("m 396.2375,152.23281 17.45886,-21.48783").attr({fill: 
 var janelaCozinha = rsr.setFinish();
 
 rsr.setStart();
-var path17744 = rsr.path("m 83.887981,260.58226 -0.278697,-177.530373 49.608166,-8.360929 10e-6,186.170002 z").attr({fill: '#ffffff',"fill-opacity": '1',stroke: 'none','stroke-width':'0','stroke-opacity':'1'});
+var path17744 = rsr.path("m 83.887981,260.58226 -0.278697,-177.530373 49.608166,-8.360929 10e-6,186.170002 z").attr({fill: '#ffffff',"fill-opacity": '0.5',stroke: 'none','stroke-width':'0','stroke-opacity':'1'});
 var paredeWC = rsr.setFinish();
 
 rsr.setStart();
