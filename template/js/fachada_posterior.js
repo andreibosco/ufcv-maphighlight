@@ -24,6 +24,7 @@ var path17040 = rsr.path("m 134.35456,73.77347 0,188.58443").attr({fill: 'none',
 var path17044 = rsr.path("m 623.20271,252.6884 0,-191.927").attr({fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
 var path17046 = rsr.path("m 529.19345,252.6884 0,-208.1921").attr({fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
 var path17048 = rsr.path("m 529.19345,252.6884 94.00926,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
+var path17042 = rsr.path("m 663.4924,262.3579 0,-194.62575").attr({fill: 'none',stroke: '#000000',"stroke-width": '2','stroke-opacity': '1'});
 var paredes = rsr.setFinish();
 
 rsr.setStart();
@@ -100,58 +101,55 @@ var chao = rsr.setFinish();
 
 rsr.setStart();
 var path17182 = rsr.path("m 83.320962,262.3579 0,-179.7548").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path17042 = rsr.path("m 663.4924,262.3579 0,-194.62575").attr({fill: 'none',stroke: '#000000',"stroke-width": '1.1','stroke-opacity': '1'});
 var paredesFundo = rsr.setFinish();
 
 //var rsrGroups = [layer1,cotasLinhas,cotasCirculos,paredes,paredesBaixas,projecaoCoberta,janelasAltas,janelasBaixas,portas,hachuras,cotasEsquerda,cotasSuperior,cotasDireita,pilar,areasCotas,cortes,cotaPiso,paredeBancadaCozinha,cotaInferior];
 layer1.push(
-	groupText,
+	//groupText,
+	porta,
 	paredes,
 	paredesFundo,
-	pilares,
+	janelaCozinha,
 	coberta,
-	janelaServico,
-	janelaWC,
-	janelaSala,
-	janelaQuartoCasal
+	chao
 );
 
 // *** Legenda
 var textLegenda;
-textLegenda = rsr.text(15, 370, 'Legenda (clique nos itens abaixo)').attr({"font-size": '18px',"font-weight": 'bold',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+textLegenda = rsr.text(15, 340, 'Legenda (clique nos itens abaixo)').attr({"font-size": '18px',"font-weight": 'bold',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var lineLegenda;
-lineLegenda = rsr.path("M15,383L735,383").attr({"stroke-width": "2"});
+lineLegenda = rsr.path("M15,353L735,353").attr({"stroke-width": "2"});
 
 // coluna 1
 rsr.setStart();
-var textPilares = rsr.text(15, 400, 'pilares').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemPilares = rsr.setFinish();
+var text01 = rsr.text(15, 370, 'porta de abrir (WC serviço)').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemPortaWC = rsr.setFinish();
 
 rsr.setStart();
-var textJanelaQuartoCasal = rsr.text(15, 430, 'janela baixa do quarto de casal').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemJanelaQuartoCasal = rsr.setFinish();
+var text02 = rsr.text(15, 400, 'janela alta da cozinha').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemJanelaCozinha = rsr.setFinish();
 
 rsr.setStart();
-var textJanelaSala = rsr.text(15, 460, 'janela baixa da sala').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemJanelaSala = rsr.setFinish();
+var text03 = rsr.text(15, 430, 'parede do WC social').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemParedeWC = rsr.setFinish();
 
 rsr.setStart();
-var textJanelaWC = rsr.text(15, 490, 'janela alta do WC de serviço').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemJanelaWC = rsr.setFinish();
+var text04 = rsr.text(15, 460, 'linha contínua fina (plano distante do observador)').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemLinhaFina = rsr.setFinish();
 
 rsr.setStart();
-var textJanelaServico = rsr.text(15, 520, 'janela alta da área de serviço').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemJanelaServico = rsr.setFinish();
+var text05 = rsr.text(15, 490, 'linha contínua média (plano mais próximo do observador)').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemLinhaMedia = rsr.setFinish();
 
 // legenda
 var legenda = rsr.set();
 legenda
 	.push(
-		itemPilares,
-		itemJanelaQuartoCasal,
-		itemJanelaSala,
-		itemJanelaWC,
-		itemJanelaServico
+		itemPortaWC,
+		itemJanelaCozinha,
+		itemParedeWC,
+		itemLinhaFina,
+		itemLinhaMedia
 	)
 	.attr({
 		"cursor": "pointer"
@@ -160,24 +158,24 @@ legenda
 // Eventos click dos itens da legenda
 
 // coluna 1
-itemPilares.click(function(){
-	itemSelect(itemPilares, pilares);
+itemPortaWC.click(function(){
+	itemSelect(itemPortaWC, porta);
 });
 
-itemJanelaQuartoCasal.click(function(){
-	itemSelect(itemJanelaQuartoCasal, janelaQuartoCasal);
+itemJanelaCozinha.click(function(){
+	itemSelect(itemJanelaCozinha, janelaCozinha);
 });
 
-itemJanelaSala.click(function(){
-	itemSelect(itemJanelaSala, janelaSala);
+itemParedeWC.click(function(){
+	itemSelect(itemParedeWC, janelaSala);
 });
 
-itemJanelaWC.click(function(){
-	itemSelect(itemJanelaWC, janelaWC);
+itemLinhaFina.click(function(){
+	itemSelect(itemLinhaFina, paredesFundo);
 });
 
-itemJanelaServico.click(function(){
-	itemSelect(itemJanelaServico, janelaServico);
+itemLinhaMedia.click(function(){
+	itemSelect(itemLinhaMedia, paredes);
 });
 // Funções
 
