@@ -3,6 +3,7 @@ var rsr = new Raphael('rsr', '745', '900');
 var layer1 = rsr.set();
 var janelasAltasCompletas = rsr.set();
 var desniveis = rsr.set();
+var areaMolhada = rsr.set();
 
 rsr.setStart();
 var text6909 = rsr.text(367, 326, 'A').attr({"font-size": '11px',"font-weight": 'bold',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
@@ -810,7 +811,6 @@ var path31029 = rsr.path("m 210.27814,670 0,-65").attr({id: 'path31029',parent: 
 var path31031 = rsr.path("m 224.44501,670 0,-65").attr({id: 'path31031',parent: 'layer1',fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path31033 = rsr.path("m 238.61188,670 0,-65").attr({id: 'path31033',parent: 'layer1',fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path31037 = rsr.path("m 252.77876,670 0,-65").attr({id: 'path31037',parent: 'layer1',fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var rect31256 = rsr.rect(178, 625, 50, 25).attr({fill: '#ffffff',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1'});
 var hachuraServico = rsr.setFinish();
 hachuraServico.transform("t5,-440");
 
@@ -826,7 +826,6 @@ var path31091 = rsr.path("m 210.27814,672.58532 0,-60.82175").attr({fill: 'none'
 var path31093 = rsr.path("m 224.44501,672.78323 0,-61.01966").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
 var path31095 = rsr.path("m 238.61188,672.35277 0,-60.5892").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
 var path31097 = rsr.path("m 252.77876,672.48177 0,-60.7182").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
-var rect31258 = rsr.rect(183, 623, 40, 26).attr({fill: '#ffffff',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1'});
 var hachuraWCservico = rsr.setFinish();
 hachuraWCservico.transform("t5,-375");
 
@@ -843,7 +842,6 @@ var path31223 = rsr.path("m 380.2806,808.91928 0,67.11999").attr({fill: 'none',s
 var path31225 = rsr.path("m 394.44747,808.91928 0,67.11999").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
 var path31227 = rsr.path("m 408.61434,808.91928 0,67.11999").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
 var path31229 = rsr.path("m 422.78121,808.91928 0,67.11999").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
-var rect31260 = rsr.rect(350, 821, 40, 25).attr({fill: '#ffffff',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1'});
 hachuraWC = rsr.setFinish();
 hachuraWC.transform("t198,-488");
 
@@ -868,9 +866,15 @@ var path5805 = rsr.path("m 323.61311,892.21156 0,-116.07073").attr({fill: 'none'
 var path5807 = rsr.path("m 337.77998,892.21156 0,-116.07073").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
 var path5809 = rsr.path("m 351.94686,892.21156 0,-116.07073").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
 var path5811 = rsr.path("m 366.11373,892.21156 0,-116.07073").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
-var rect31260 = rsr.rect(240, 830, 47, 25).attr({fill: '#ffffff',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1'});
 var hachuraCozinha = rsr.setFinish();
 hachuraCozinha.transform("t75,-605");
+
+rsr.setStart();
+var rect31260 = rsr.rect(350, 821, 40, 25).attr({fill: '#ffffff',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1'});
+var rect31260 = rsr.rect(315, 224, 47, 25).attr({fill: '#ffffff',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1'});
+var rect31258 = rsr.rect(188, 248, 40, 26).attr({fill: '#ffffff',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1'});
+var rect31256 = rsr.rect(183, 185, 50, 25).attr({fill: '#ffffff',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1'});
+hachuraBGtexto = rsr.setFinish();
 
 // cotas esquerda
 rsr.setStart();
@@ -1132,7 +1136,11 @@ layer1.push(
 	corteMudanca,
 	paredeBancadaCozinha,
 	arestaPiso,
-	desnivel
+	desnivel,
+	hachuraServico,
+	hachuraWCservico,
+	hachuraWC,
+	hachuraCozinha
 	//nomeDesenho
 );
 
@@ -1144,6 +1152,11 @@ desniveis.push(
 janelasAltasCompletas.push(
 	janelasAltas,
 	janelasAltasFolhas
+);
+
+areaMolhada.push(
+	hachuraServico,
+	hachuraCozinha
 );
 
 // *** Legenda
@@ -1224,6 +1237,10 @@ rsr.setStart();
 var textNomeDesenho = rsr.text(555, 830, 'nome e escala do desenho').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'0.5','stroke-opacity':'1',"font-family": 'Sans'});
 var itemNomeDesenho = rsr.setFinish();
 
+rsr.setStart();
+var textAreaMolhada = rsr.text(555, 860, 'área molhada').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'0.5','stroke-opacity':'1',"font-family": 'Sans'});
+var itemAreaMolhada = rsr.setFinish();
+
 // legenda
 var legenda = rsr.set();
 legenda
@@ -1247,7 +1264,8 @@ legenda
 		// coluna 4
 		itemParedeAlta,
 		itemPilar,
-		itemNomeDesenho
+		itemNomeDesenho,
+		itemAreaMolhada
 	)
 	.attr({
 		"cursor": "pointer"
@@ -1321,6 +1339,10 @@ itemPilar.click(function(){
 
 itemNomeDesenho.click(function(){
 	itemSelect(itemNomeDesenho, nomeDesenho, null, true);
+});
+
+itemAreaMolhada.click(function(){
+	itemSelect(itemAreaMolhada, areaMolhada);
 });
 
 // Funções
