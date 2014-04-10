@@ -1,6 +1,8 @@
 var rsr = new Raphael('rsr', '745', '510');
 
 var layer1 = rsr.set();
+var itensLinhaFina = rsr.set();
+var itensLinhaMedia = rsr.set();
 
 rsr.setStart();
 var text15650 = rsr.text(520, 290, 'FACHADA POSTERIOR').attr({"font-size": '14px',"text-anchor":"start","font-weight": 'normal',"line-height": '125%',"letter-spacing": '0px',"word-spacing": '0px',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Arial'});
@@ -65,8 +67,8 @@ var path17110 = rsr.path("m 501.50901,29.75718 0.73267,-4.23465 -21.5396,-1.5459
 var path17112 = rsr.path("m 480.33575,26.09387 0.73267,-4.23465 -21.5396,-1.54598 -0.36633,2.11732").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17114 = rsr.path("m 459.16249,22.43056 0.73266,-4.23465 -21.53959,-1.54598 -0.36633,2.11732").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17116 = rsr.path("m 437.98923,18.76725 0.73266,-4.23465 -21.53959,-1.54598 -0.36633,2.11732").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path17118 = rsr.path("m 56.00326,77.38022 -0.732662,-4.23465 21.539593,-1.54599 0.366331,2.11733").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path17120 = rsr.path("M 77.176522,73.71691 76.44386,69.48226 97.983453,67.93627 98.349784,70.0536").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+
+var path17122a = rsr.path("m 88.349784,70.5 -0.732662,-3.23465 10,0.2 0.1,2").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17122 = rsr.path("m 98.349784,70.0536 -0.732662,-4.23465 21.539598,-1.54599 0.36633,2.11733").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17124 = rsr.path("m 119.52305,66.39029 -0.73266,-4.23466 21.53959,-1.54598 0.36633,2.11733").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17126 = rsr.path("m 140.69631,62.72698 -0.73266,-4.23465 21.53959,-1.54599 0.36633,2.11733").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
@@ -86,18 +88,23 @@ var path17152 = rsr.path("m 420.25577,13.20721 a 4.297566,4.297566 0 0 0 -7.7468
 var path17154 = rsr.path("m 421.45232,13.29309 a 5.371958,5.371958 0 0 0 -10.13996,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '0.7',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
 var path17156 = rsr.path("M 689.13875,72.16938 416.38234,24.97819").attr({fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
 var path17158 = rsr.path("m 690.35219,65.15593 -1.21344,7.01345").attr({fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
-var path17160 = rsr.path("m 56.461174,80.02688 1.213437,7.01344").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17162 = rsr.path("M 90.094891,81.4311 416.38234,24.97819").attr({fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
 var path17164 = rsr.path("M 90.094891,81.4311 88.430243,71.80974").attr({fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
-var path17166 = rsr.path("m 90.094891,81.4311 -32.42028,5.60922").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17168 = rsr.path("M 87.781491,71.56631 416.38234,15.06882").attr({fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
-var path17170 = rsr.path("m 416.38234,15.06882 0,2.68598").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17172 = rsr.path("M 416.38234,17.7548 88.881453,74.41765").attr({fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
+var coberta = rsr.setFinish();
+
+rsr.setStart();
+var path17118 = rsr.path("m 56.00326,77.38022 -0.732662,-4.23465 21.539593,-1.54599 0.366331,2.11733").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path17120 = rsr.path("M 77.176522,73.71691 76.44386,69.48226 87.5,69.6 88,71.0536").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path17160 = rsr.path("m 56.461174,80.02688 1.213437,7.01344").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path17166 = rsr.path("m 90.094891,81.4311 -32.42028,5.60922").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path17170 = rsr.path("m 416.38234,15.06882 0,2.68598").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17174 = rsr.path("M 56.461174,80.02688 56.00326,77.38022").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17176 = rsr.path("m 56.00326,77.38022 0.0067,0.0387").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17178 = rsr.path("M 88.881453,74.41765 56.461174,80.02688").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path17740 = rsr.path("M 88.184709,71.351976 55.76443,76.961206").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var coberta = rsr.setFinish();
+var cobertaFundo = rsr.setFinish();
 
 rsr.setStart();
 var path17086 = rsr.path("m 0.055617,262.3579 744.016143,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '4',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
@@ -107,15 +114,27 @@ rsr.setStart();
 var path17182 = rsr.path("m 83.320962,262.3579 0,-179.7548").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var paredesFundo = rsr.setFinish();
 
-//var rsrGroups = [layer1,cotasLinhas,cotasCirculos,paredes,paredesBaixas,projecaoCoberta,janelasAltas,janelasBaixas,portas,hachuras,cotasEsquerda,cotasSuperior,cotasDireita,pilar,areasCotas,cortes,cotaPiso,paredeBancadaCozinha,cotaInferior];
 layer1.push(
 	//groupText,
 	porta,
 	paredes,
 	paredesFundo,
+	cobertaFundo,
 	janelaCozinha,
 	coberta,
 	chao
+);
+
+itensLinhaFina.push(
+	paredesFundo,
+	cobertaFundo,
+	porta
+);
+
+itensLinhaMedia.push(
+	paredes,
+	janelaCozinha,
+	coberta
 );
 
 // *** Legenda
@@ -175,11 +194,11 @@ itemParedeWC.click(function(){
 });
 
 itemLinhaFina.click(function(){
-	itemSelect(itemLinhaFina, paredesFundo);
+	itemSelect(itemLinhaFina, itensLinhaFina);
 });
 
 itemLinhaMedia.click(function(){
-	itemSelect(itemLinhaMedia, paredes);
+	itemSelect(itemLinhaMedia, itensLinhaMedia);
 });
 // Funções
 
