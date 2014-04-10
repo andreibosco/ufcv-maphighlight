@@ -155,7 +155,7 @@ var cobertaFundo = rsr.setFinish();
 
 rsr.setStart();
 var rect7981 = rsr.rect(213.48238, 84.724075, 220.17111, 162.7594).attr({x: '213.48238',y: '84.724075',fill: '#ffffff',"fill-opacity": '0.5',stroke: 'none','stroke-width':'0','stroke-opacity':'1'});
-var quartoCasal = rsr.setFinish();
+var sala = rsr.setFinish();
 
 rsr.setStart();
 var path7985 = rsr.path("M 433.1576,248.71491 432.36932,35.880427 609.7314,67.8056 l 0.78827,180.90932 z").attr({fill: '#ffffff',"fill-opacity": '0.5',stroke: 'none','stroke-width':'0','stroke-opacity':'1'});
@@ -283,11 +283,11 @@ itemPilar.click(function(){
 });
 
 itemSala.click(function(){
-	itemSelect(itemSala, paredes);
+	itemSelect(itemSala, sala, null, true);
 });
 
 itemQuartoCasal.click(function(){
-	itemSelect(itemQuartoCasal, quartoCasal, null, true);
+	itemSelect(itemQuartoCasal, paredes);
 });
 
 itemWC.click(function(){
