@@ -847,6 +847,31 @@ var rect31260 = rsr.rect(350, 821, 40, 25).attr({fill: '#ffffff',"fill-opacity":
 hachuraWC = rsr.setFinish();
 hachuraWC.transform("t198,-488");
 
+rsr.setStart();
+var path5749 = rsr.path("m 195.5412,790.61121 174.45163,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5751 = rsr.path("m 195.5412,804.77808 174.45163,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5755 = rsr.path("m 194.57452,818.94495 174.86942,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5759 = rsr.path("m 194.96548,833.11182 174.47846,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5761 = rsr.path("m 195.5412,847.27869 174.45163,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5763 = rsr.path("m 195.5412,861.44557 174.45163,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5765 = rsr.path("m 195.5412,875.61244 174.45163,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5769 = rsr.path("m 195.40492,889.77931 174.58791,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5777 = rsr.path("m 210.27814,901.34781 0,-125.3689").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5779 = rsr.path("m 224.44501,901.34781 0,-125.3689").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5781 = rsr.path("m 238.61188,901.34781 0,-125.3689").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5785 = rsr.path("m 252.77876,902.06404 0,-126.08513").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5789 = rsr.path("m 266.94563,903.16967 0,-127.02884").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5795 = rsr.path("m 281.1125,903.16967 0,-127.02884").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5801 = rsr.path("m 295.27937,892.21156 0,-116.71017").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5803 = rsr.path("m 309.44624,892.21156 0,-116.07073").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5805 = rsr.path("m 323.61311,892.21156 0,-116.07073").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5807 = rsr.path("m 337.77998,892.21156 0,-116.07073").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5809 = rsr.path("m 351.94686,892.21156 0,-116.07073").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path5811 = rsr.path("m 366.11373,892.21156 0,-116.07073").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var rect31260 = rsr.rect(240, 830, 47, 25).attr({fill: '#ffffff',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1'});
+var hachuraCozinha = rsr.setFinish();
+hachuraCozinha.transform("t75,-605");
+
 // cotas esquerda
 rsr.setStart();
 var text6501 = rsr.text(-851.91052, 20.222912, '2.49').attr({"font-size": '8px',"font-weight": 'normal',"text-anchor": 'middle',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821 m0,-1,1,0,0,0");
