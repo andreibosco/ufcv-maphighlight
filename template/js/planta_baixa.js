@@ -796,8 +796,8 @@ var path5815 = rsr.path("m 394.44747,901.34781 0,-111.10397").attr({fill: 'none'
 var path5817 = rsr.path("m 408.61434,901.34781 0,-111.10397").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5819 = rsr.path("m 422.78121,901.34781 0,-111.10397").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path5821 = rsr.path("m 436.94808,901.34781 0,-111.10397").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var hachuras = rsr.setFinish();
-hachuras.attr({'transformG': 'translate(-1.4828368,-307.93821)'});
+var hachuraVaranda = rsr.setFinish();
+hachuraVaranda.attr({'transformG': 'translate(-1.4828368,-307.93821)'});
 
 rsr.setStart();
 var path30975 = rsr.path("m 154.17341,620.60875 104.12035,0").attr({id: 'path30975',parent: 'layer1',fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
@@ -1109,6 +1109,18 @@ var path28945 = rsr.path("m 265.87871,484.31991 0,35.34697").attr({fill: 'none',
 var path28947 = rsr.path("m 272.08405,484.31991 0,35.34697").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var desnivel = rsr.setFinish();
 
+rsr.setStart();
+var path35308 = rsr.path("m 97.141569,378.06274 a 24.383614,24.383614 0 1 0 -48.767227,0 24.383614,24.383614 0 0 0 48.767227,0 z").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+var path35838 = rsr.path("m 79.469471,355.8612 0,11.30133 -26.912232,0 0,21.82944 26.912232,0 0,11.50952 8.227367,-11.18238 8.257505,-11.15264 -8.257505,-11.15264 -8.227367,-11.15263 z").attr({fill: 'none',stroke: '#000000',"stroke-width": '1.5',"stroke-opacity": '1'});
+var path35846 = rsr.path("m 43.05862,378.3052 58.01994,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1',"stroke-opacity": '1','stroke-dasharray': '- .'});
+var norte = rsr.setFinish();
+norte.transform("t-20,-280");
+
+rsr.setStart();
+var text35848 = rsr.text(118, 380, 'N').attr({"font-size": '30px',"font-weight": 'normal',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Arial'});
+var norteTexto = rsr.setFinish();
+norteTexto.transform("t-20,-280");
+
 layer1.push(
 	cotasLinhas,
 	cotasChamadas,
@@ -1122,7 +1134,7 @@ layer1.push(
 	janelasBaixas,
 	portaCorrer,
 	portas,
-	hachuras,
+	hachuraVaranda,
 	//cotasEsquerda,
 	//cotasDireita,
 	//cotasSuperior,
@@ -1140,7 +1152,8 @@ layer1.push(
 	hachuraServico,
 	hachuraWCservico,
 	hachuraWC,
-	hachuraCozinha
+	hachuraCozinha,
+	norte
 	//nomeDesenho
 );
 
@@ -1156,7 +1169,8 @@ janelasAltasCompletas.push(
 
 areaMolhada.push(
 	hachuraServico,
-	hachuraCozinha
+	hachuraCozinha,
+	hachuraVaranda
 );
 
 // *** Legenda
@@ -1241,6 +1255,11 @@ rsr.setStart();
 var textAreaMolhada = rsr.text(555, 860, 'área molhada').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'0.5','stroke-opacity':'1',"font-family": 'Sans'});
 var itemAreaMolhada = rsr.setFinish();
 
+rsr.setStart();
+var textNorte = rsr.text(555, 890, 'orientação').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'0.5','stroke-opacity':'1',"font-family": 'Sans'});
+var itemNorte = rsr.setFinish();
+
+
 // legenda
 var legenda = rsr.set();
 legenda
@@ -1265,7 +1284,8 @@ legenda
 		itemParedeAlta,
 		itemPilar,
 		itemNomeDesenho,
-		itemAreaMolhada
+		itemAreaMolhada,
+		itemNorte
 	)
 	.attr({
 		"cursor": "pointer"
@@ -1343,6 +1363,10 @@ itemNomeDesenho.click(function(){
 
 itemAreaMolhada.click(function(){
 	itemSelect(itemAreaMolhada, areaMolhada);
+});
+
+itemNorte.click(function(){
+	itemSelect(itemNorte, norte);
 });
 
 // Funções
