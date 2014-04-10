@@ -874,6 +874,7 @@ var rect31260 = rsr.rect(350, 821, 40, 25).attr({fill: '#ffffff',"fill-opacity":
 var rect31260 = rsr.rect(315, 224, 47, 25).attr({fill: '#ffffff',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1'});
 var rect31258 = rsr.rect(188, 248, 40, 26).attr({fill: '#ffffff',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1'});
 var rect31256 = rsr.rect(183, 185, 50, 25).attr({fill: '#ffffff',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1'});
+var rect31256 = rsr.rect(549, 333, 40, 25).attr({fill: '#ffffff',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1'});
 hachuraBGtexto = rsr.setFinish();
 
 // cotas esquerda
@@ -957,28 +958,7 @@ var path6753 = rsr.path("m 167.55943,749.63958 a 6.69301,6.69301 0 1 0 -13.38602
 var pilar = rsr.setFinish();
 pilar.attr({'transformG': 'translate(-1.4828368,-307.93821)'});
 
-// areasCotas
 rsr.setStart();
-var text6757 = rsr.text(520, 806, 'QUARTO CASAL').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6761 = rsr.text(520, 818, 'A=12,90m²').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6765 = rsr.text(352, 685, 'SALA').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6769 = rsr.text(352, 696, 'A=15,01m²').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6773 = rsr.text(570, 648, 'W.C.').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6777 = rsr.text(570, 659, 'A=4,05m²').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6781 = rsr.text(340, 539, 'COZINHA').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6785 = rsr.text(340, 551, 'A=10,92m²').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6789 = rsr.text(510, 537, 'QUARTO').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6793 = rsr.text(510, 547, 'A=9,60m²').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6797 = rsr.text(210, 500, 'A. SERVIÇO').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6801 = rsr.text(210, 512, 'A=3,67m²').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6805 = rsr.text(210, 563, 'W.C.').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6809 = rsr.text(210, 575, 'A=2,82m²').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6813 = rsr.text(480, 657, 'HALL').attr({"font-size": '7.0999999px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6817 = rsr.text(480, 667, 'A=1,80m²').attr({"font-size": '7.0999999px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6861 = rsr.text(275, 824, 'VARANDA').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-var text6865 = rsr.text(275, 837, 'A=26,37m²').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
-
-// cota piso
 // sala
 var text6829 = rsr.text(352, 724, '+22.00').attr({"font-size": '8px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-310");
 // quarto casal
@@ -997,7 +977,31 @@ var text6853 = rsr.text(479, 681.5, '+22.00').attr({"font-size": '8px',fill: '#0
 var text6857 = rsr.text(570, 675.5, '+20.00').attr({"font-size": '8px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-310");
 // varanda
 var text6869 = rsr.text(276, 867, '+20.00').attr({"font-size": '8px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-310");
-var areasCotas = rsr.setFinish();
+var nivelCompartimento = rsr.setFinish();
+
+rsr.setStart();
+var text6757 = rsr.text(520, 806, 'QUARTO CASAL').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6765 = rsr.text(352, 685, 'SALA').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6773 = rsr.text(570, 648, 'W.C.').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6781 = rsr.text(340, 539, 'COZINHA').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6789 = rsr.text(510, 537, 'QUARTO').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6797 = rsr.text(210, 500, 'A. SERVIÇO').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6805 = rsr.text(210, 563, 'W.C.').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6813 = rsr.text(480, 657, 'HALL').attr({"font-size": '7.0999999px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6861 = rsr.text(275, 824, 'VARANDA').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var nomeCompartimento = rsr.setFinish();
+
+rsr.setStart();
+var text6761 = rsr.text(520, 818, 'A=12,90m²').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6769 = rsr.text(352, 696, 'A=15,01m²').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6777 = rsr.text(570, 659, 'A=4,05m²').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6785 = rsr.text(340, 551, 'A=10,92m²').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6793 = rsr.text(510, 547, 'A=9,60m²').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6801 = rsr.text(210, 512, 'A=3,67m²').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6809 = rsr.text(210, 575, 'A=2,82m²').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6817 = rsr.text(480, 667, 'A=1,80m²').attr({"font-size": '7.0999999px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var text6865 = rsr.text(275, 837, 'A=26,37m²').attr({"font-size": '8.89999962px',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+var areaCompartimento = rsr.setFinish();
 
 rsr.setStart();
 var text6821 = rsr.text(545, 1025, 'PLANTA BAIXA').attr({"font-size": '14px',"text-anchor":"start",fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
@@ -1181,83 +1185,92 @@ lineLegenda = rsr.path("M15,753L740,753").attr({"stroke-width": "2"});
 
 // coluna 1
 rsr.setStart();
-var textFolhaJanelaAlta = rsr.text(15, 770, 'folha de janela alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemFolhaJanelaAlta = rsr.setFinish();
-
-rsr.setStart();
-var textFolhaJanelaBaixa = rsr.text(15, 800, 'folha de janela baixa').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemFolhaJanelaBaixa = rsr.setFinish();
-
-rsr.setStart();
-var textCorteMudanca = rsr.text(15, 830, 'mudança de direção').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemCorteMudanca = rsr.setFinish();
-
-rsr.setStart();
-var textProjCoberta = rsr.text(15, 860, 'projeção da coberta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemProjCoberta = rsr.setFinish();
-
-// coluna 2
-rsr.setStart();
-var textDesniveis = rsr.text(185, 770, 'aresta de piso (desníveis)').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemDesniveis = rsr.setFinish();
-
-rsr.setStart();
-var textParedeBaixa = rsr.text(185, 800, 'parede baixa (peitoril)').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemParedeBaixa = rsr.setFinish();
-
-// rsr.setStart();
-// var textDesniveis = rsr.text(185, 830, 'desníveis').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-// var itemDesniveis = rsr.setFinish();
-
-rsr.setStart();
-var textChamada = rsr.text(185, 860, 'linha de extensão ou chamada').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemChamada = rsr.setFinish();
-
-rsr.setStart();
-var textCotas = rsr.text(185, 890, 'linhas de cota').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemCotas = rsr.setFinish();
-
-// coluna 3
-rsr.setStart();
-var textPortaCorrer = rsr.text(415, 770, 'porta de correr').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemPortaCorrer = rsr.setFinish();
-
-rsr.setStart();
-var textPortaAbrir = rsr.text(415, 800, 'porta de abrir').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemPortaAbrir = rsr.setFinish();
-
-rsr.setStart();
-var textCorte = rsr.text(415, 830, 'linha de corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemCorte = rsr.setFinish();
-
-rsr.setStart();
-var textCorteDirecao = rsr.text(415, 860, 'direção do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemCorteDirecao = rsr.setFinish();
-
-rsr.setStart();
-var textCorteLetra = rsr.text(415, 890, 'letra do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemCorteLetra = rsr.setFinish();
-
-// coluna 4
-rsr.setStart();
-var textParedeAlta = rsr.text(555, 770, 'parede alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemParedeAlta = rsr.setFinish();
-
-rsr.setStart();
-var textPilar = rsr.text(555, 800, 'pilar').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'0.5','stroke-opacity':'1',"font-family": 'Sans'});
-var itemPilar = rsr.setFinish();
-
-rsr.setStart();
-var textNomeDesenho = rsr.text(555, 830, 'nome e escala do desenho').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'0.5','stroke-opacity':'1',"font-family": 'Sans'});
+var textNomeDesenho = rsr.text(15, 770, 'nome e escala do desenho').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'0.5','stroke-opacity':'1',"font-family": 'Sans'});
 var itemNomeDesenho = rsr.setFinish();
 
 rsr.setStart();
-var textAreaMolhada = rsr.text(555, 860, 'área molhada').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'0.5','stroke-opacity':'1',"font-family": 'Sans'});
-var itemAreaMolhada = rsr.setFinish();
+var textNorte = rsr.text(15, 800, 'orientação').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'0.5','stroke-opacity':'1',"font-family": 'Sans'});
+var itemNorte = rsr.setFinish();
 
 rsr.setStart();
-var textNorte = rsr.text(555, 890, 'orientação').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'0.5','stroke-opacity':'1',"font-family": 'Sans'});
-var itemNorte = rsr.setFinish();
+var textParedeAlta = rsr.text(15, 830, 'parede alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemParedeAlta = rsr.setFinish();
+
+rsr.setStart();
+var textParedeBaixa = rsr.text(15, 860, 'parede baixa (peitoril)').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemParedeBaixa = rsr.setFinish();
+
+rsr.setStart();
+var textPilar = rsr.text(15, 890, 'pilar').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'0.5','stroke-opacity':'1',"font-family": 'Sans'});
+var itemPilar = rsr.setFinish();
+
+// coluna 2
+rsr.setStart();
+var textDesniveis = rsr.text(205, 770, 'aresta de piso (desníveis)').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemDesniveis = rsr.setFinish();
+
+rsr.setStart();
+var textFolhaJanelaBaixa = rsr.text(205, 800, 'folha de janela baixa').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemFolhaJanelaBaixa = rsr.setFinish();
+
+rsr.setStart();
+var textNomeCompartimento = rsr.text(205, 830, 'nome do compartimento').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemNomeCompartimento = rsr.setFinish();
+
+rsr.setStart();
+var textAreaCompartimento = rsr.text(205, 860, 'área do compartimento').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemAreaCompartimento = rsr.setFinish();
+
+rsr.setStart();
+var textNivelCompartimento = rsr.text(205, 890, 'nível do compartimento').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemNivelCompartimento = rsr.setFinish();
+
+// coluna 3
+rsr.setStart();
+var textFolhaJanelaAlta = rsr.text(400, 770, 'folha de janela alta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemFolhaJanelaAlta = rsr.setFinish();
+
+rsr.setStart();
+var textPortaAbrir = rsr.text(400, 800, 'porta de abrir').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemPortaAbrir = rsr.setFinish();
+
+rsr.setStart();
+var textPortaCorrer = rsr.text(400, 830, 'porta de correr').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemPortaCorrer = rsr.setFinish();
+
+rsr.setStart();
+var textProjCoberta = rsr.text(400, 860, 'projeção da coberta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemProjCoberta = rsr.setFinish();
+
+rsr.setStart();
+var textCotas = rsr.text(400, 890, 'linhas de cota').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemCotas = rsr.setFinish();
+
+// coluna 4
+
+// rsr.setStart();
+// var textChamada = rsr.text(185, 860, 'linha de extensão ou chamada').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+// var itemChamada = rsr.setFinish();
+
+rsr.setStart();
+var textCorte = rsr.text(555, 770, 'linha de corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemCorte = rsr.setFinish();
+
+rsr.setStart();
+var textCorteDirecao = rsr.text(555, 800, 'direção do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemCorteDirecao = rsr.setFinish();
+
+rsr.setStart();
+var textCorteMudanca = rsr.text(555, 830, 'mudança de direção').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemCorteMudanca = rsr.setFinish();
+
+rsr.setStart();
+var textCorteLetra = rsr.text(555, 860, 'letra do corte').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemCorteLetra = rsr.setFinish();
+
+rsr.setStart();
+var textAreaMolhada = rsr.text(555, 890, 'área molhada').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'0.5','stroke-opacity':'1',"font-family": 'Sans'});
+var itemAreaMolhada = rsr.setFinish();
 
 
 // legenda
@@ -1265,27 +1278,33 @@ var legenda = rsr.set();
 legenda
 	.push(
 		// coluna 1
-		itemFolhaJanelaAlta,
-		itemFolhaJanelaBaixa,
-		itemProjCoberta,
+		itemNomeDesenho,
+		itemNorte,
+		itemParedeAlta,
+		itemParedeBaixa,
+		itemPilar,
+
 		// coluna 2
 		itemDesniveis,
-		itemParedeBaixa,
-		itemChamada,
-		itemCotas,
+		itemNomeCompartimento,
+		itemAreaCompartimento,
+		itemNivelCompartimento,
+		itemFolhaJanelaBaixa,
+		
 		// coluna 3
-		itemPortaCorrer,
+		itemFolhaJanelaAlta,
 		itemPortaAbrir,
+		itemPortaCorrer,
+		itemProjCoberta,
+		itemCotas,
+		
+		// coluna 4
+		//itemChamada,
 		itemCorte,
 		itemCorteDirecao,
 		itemCorteMudanca, // fixme
 		itemCorteLetra,
-		// coluna 4
-		itemParedeAlta,
-		itemPilar,
-		itemNomeDesenho,
-		itemAreaMolhada,
-		itemNorte
+		itemAreaMolhada
 	)
 	.attr({
 		"cursor": "pointer"
@@ -1294,16 +1313,24 @@ legenda
 // Eventos click dos itens da legenda
 
 // coluna 1
-itemFolhaJanelaAlta.click(function(){
-	itemSelect(itemFolhaJanelaAlta, janelasAltasCompletas);
+itemNomeDesenho.click(function(){
+	itemSelect(itemNomeDesenho, nomeDesenho, null, true);
 });
 
-itemFolhaJanelaBaixa.click(function(){
-	itemSelect(itemFolhaJanelaBaixa, janelasBaixas);
+itemNorte.click(function(){
+	itemSelect(itemNorte, norte);
 });
 
-itemProjCoberta.click(function(){
-	itemSelect(itemProjCoberta, projecaoCoberta);
+itemParedeAlta.click(function(){
+	itemSelect(itemParedeAlta, paredes);
+});
+
+itemParedeBaixa.click(function(){
+	itemSelect(itemParedeBaixa, paredesBaixas);
+});
+
+itemPilar.click(function(){
+	itemSelect(itemPilar, pilar);
 });
 
 // coluna 2
@@ -1311,62 +1338,65 @@ itemDesniveis.click(function(){
 	itemSelect(itemDesniveis, desniveis, "2");
 });
 
-itemParedeBaixa.click(function(){
-	itemSelect(itemParedeBaixa, paredesBaixas);
+itemNomeCompartimento.click(function(){
+	itemSelect(itemNomeCompartimento, nomeCompartimento, null, true);
 });
 
-itemChamada.click(function(){
-	itemSelect(itemChamada, cotasChamadas, "3");
+itemAreaCompartimento.click(function(){
+	itemSelect(itemAreaCompartimento, areaCompartimento, null, true);
 });
 
-itemCotas.click(function(){
-	itemSelect(itemCotas, cotasLinhas);
+itemNivelCompartimento.click(function(){
+	itemSelect(itemNivelCompartimento, nivelCompartimento, null, true);
+});
+
+itemFolhaJanelaBaixa.click(function(){
+	itemSelect(itemFolhaJanelaBaixa, janelasBaixas);
 });
 
 // coluna 3
-itemPortaCorrer.click(function(){
-	itemSelect(itemPortaCorrer, portaCorrer);
+itemFolhaJanelaAlta.click(function(){
+	itemSelect(itemFolhaJanelaAlta, janelasAltasCompletas);
 });
 
 itemPortaAbrir.click(function(){
 	itemSelect(itemPortaAbrir, portas);
 });
 
-itemCorte.click(function(){
-	itemSelect(itemCorte, cortes);
+itemPortaCorrer.click(function(){
+	itemSelect(itemPortaCorrer, portaCorrer);
 });
 
-itemCorteMudanca.click(function(){
-	itemSelect(itemCorteMudanca, corteMudanca);
+itemProjCoberta.click(function(){
+	itemSelect(itemProjCoberta, projecaoCoberta);
+});
+
+itemCotas.click(function(){
+	itemSelect(itemCotas, cotasLinhas);
+});
+
+// coluna 4
+// itemChamada.click(function(){
+// 	itemSelect(itemChamada, cotasChamadas, "3");
+// });
+itemCorte.click(function(){
+	itemSelect(itemCorte, cortes);
 });
 
 itemCorteDirecao.click(function(){
 	itemSelect(itemCorteDirecao, cortesDirecao);
 });
 
+itemCorteMudanca.click(function(){
+	itemSelect(itemCorteMudanca, corteMudanca);
+});
+
 itemCorteLetra.click(function(){
 	itemSelect(itemCorteLetra, cortesTexto, null, true);
 });
 
-// coluna 4
-itemParedeAlta.click(function(){
-	itemSelect(itemParedeAlta, paredes);
-});
-
-itemPilar.click(function(){
-	itemSelect(itemPilar, pilar);
-});
-
-itemNomeDesenho.click(function(){
-	itemSelect(itemNomeDesenho, nomeDesenho, null, true);
-});
-
 itemAreaMolhada.click(function(){
 	itemSelect(itemAreaMolhada, areaMolhada);
-});
-
-itemNorte.click(function(){
-	itemSelect(itemNorte, norte);
 });
 
 // Funções
