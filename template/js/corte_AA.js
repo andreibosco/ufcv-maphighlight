@@ -41,7 +41,7 @@ var path26112 = rsr.path("m 247.81423,121.65346 c 0.39414,0 36.65483,-4e-5 36.65
 var path26116 = rsr.path("m 247.81423,124.31389 c 0.39414,0 36.65483,-4e-5 36.65483,-4e-5").attr({fill: 'none',stroke: '#000000',"stroke-width": '1',"stroke-linecap": 'butt',"stroke-linejoin": 'miter',"stroke-opacity": '1'});
 var path26118 = rsr.path("m 247.7157,126.97432 c 0.39414,0 36.65483,-4e-5 36.65483,-4e-5").attr({fill: 'none',stroke: '#000000',"stroke-width": '1',"stroke-linecap": 'butt',"stroke-linejoin": 'miter',"stroke-opacity": '1'});
 var path26120 = rsr.path("m 247.7157,129.53622 c 0.39414,0 36.65483,-4e-5 36.65483,-4e-5").attr({fill: 'none',stroke: '#000000',"stroke-width": '1',"stroke-linecap": 'butt',"stroke-linejoin": 'miter',"stroke-opacity": '1'});
-var portaQuarto = rsr.setFinish();
+var portaCozinha = rsr.setFinish();
 
 rsr.setStart();
 var path25060 = rsr.path("m 455.81189,238.6239 0,-124.66271 36.35997,0 0,124.66271").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
@@ -53,7 +53,7 @@ var path26128 = rsr.path("m 458.44049,121.67036 c 0.3318,0 30.85754,-4e-5 30.857
 var path26130 = rsr.path("m 458.44049,124.33079 c 0.3318,0 30.85754,-4e-5 30.85754,-4e-5").attr({fill: 'none',stroke: '#000000',"stroke-width": '0.92',"stroke-linecap": 'butt',"stroke-linejoin": 'miter',"stroke-opacity": '1'});
 var path26132 = rsr.path("m 458.35754,126.99122 c 0.3318,0 30.85754,-4e-5 30.85754,-4e-5").attr({fill: 'none',stroke: '#000000',"stroke-width": '0.92',"stroke-linecap": 'butt',"stroke-linejoin": 'miter',"stroke-opacity": '1'});
 var path26134 = rsr.path("m 458.35754,129.55312 c 0.3318,0 30.85754,-4e-5 30.85754,-4e-5").attr({fill: 'none',stroke: '#000000',"stroke-width": '0.92',"stroke-linecap": 'butt',"stroke-linejoin": 'miter',"stroke-opacity": '1'});
-var portaCozinha = rsr.setFinish();
+var portaQuarto = rsr.setFinish();
 
 rsr.setStart();
 var path25072 = rsr.path("m 232.4578,238.6239 0,-51.94277 7.79142,0 0,51.94277 -7.79142,0 z").attr({fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
@@ -322,7 +322,7 @@ var text07 = rsr.text(395, 430, 'abertura da cozinha americana').attr({"font-siz
 var itemAberturaCozinha = rsr.setFinish();
 
 rsr.setStart();
-var text08 = rsr.text(395, 460, 'porta do quarto').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var text08 = rsr.text(395, 460, 'porta do quarto casal').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPortaQuarto = rsr.setFinish();
 
 // legenda
