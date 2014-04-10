@@ -1,6 +1,9 @@
 var rsr = new Raphael('rsr', '745', '550');
 
 var layer1 = rsr.set();
+var plano1 = rsr.set();
+var plano2 = rsr.set();
+var plano3 = rsr.set();
 
 rsr.setStart();
 var text15650 = rsr.text(520, 320, 'FACHADA LATERAL ESQUERDA').attr({"font-size": '14px',"text-anchor":"start","font-weight": 'normal',"line-height": '125%',"letter-spacing": '0px',"word-spacing": '0px',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Arial'});
@@ -78,33 +81,33 @@ var path13848 = rsr.path("m 424.42935,227.89191 -4.02942,0").attr({fill: 'none',
 var janelaSala = rsr.setFinish();
 
 rsr.setStart();
-var path13724 = rsr.path("m 531.87981,152.6766 40.29393,0 0,75.21532 -40.29393,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13726 = rsr.path("m 534.56608,155.36286 34.9214,0 0,10.74506").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13728 = rsr.path("m 569.48748,168.79418 0,56.41148 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13730 = rsr.path("m 534.56608,168.79418 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13732 = rsr.path("m 531.87981,166.10792 40.29393,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13734 = rsr.path("m 534.56608,163.42166 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13736 = rsr.path("m 534.56608,160.7354 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13738 = rsr.path("m 534.56608,158.04913 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13740 = rsr.path("m 531.87981,227.89192 0,-75.21532").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13742 = rsr.path("m 534.56608,225.20566 0,-56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13744 = rsr.path("m 534.56608,166.10792 0,-10.74506").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13746 = rsr.path("m 534.56608,168.79418 17.4607,56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1','stroke-dasharray': '--'});
-var path13748 = rsr.path("m 552.02678,225.20566 17.4607,-56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1','stroke-dasharray': '--'});
-var path13750 = rsr.path("m 491.58589,227.89192 0,-75.21532").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13752 = rsr.path("m 531.87981,152.6766 -40.29392,0 0,75.21532 40.29392,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13754 = rsr.path("m 529.19355,155.36286 -34.9214,0 0,10.74506").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13756 = rsr.path("m 494.27215,168.79418 0,56.41148 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13758 = rsr.path("m 529.19355,168.79418 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13760 = rsr.path("m 531.87981,166.10792 -40.29392,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13762 = rsr.path("m 529.19355,163.42166 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13764 = rsr.path("m 529.19355,160.7354 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13766 = rsr.path("m 529.19355,158.04913 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13768 = rsr.path("m 531.87981,227.89192 0,-75.21532").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13770 = rsr.path("m 529.19355,225.20566 0,-56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13772 = rsr.path("m 529.19355,166.10792 0,-10.74506").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
-var path13774 = rsr.path("m 529.19355,168.79418 -17.4607,56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1','stroke-dasharray': '--'});
-var path13776 = rsr.path("m 511.73285,225.20566 -17.4607,-56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1','stroke-dasharray': '--'});
+var path13724 = rsr.path("m 531.87981,152.6766 40.29393,0 0,75.21532 -40.29393,0").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13726 = rsr.path("m 534.56608,155.36286 34.9214,0 0,10.74506").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13728 = rsr.path("m 569.48748,168.79418 0,56.41148 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13730 = rsr.path("m 534.56608,168.79418 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13732 = rsr.path("m 531.87981,166.10792 40.29393,0").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13734 = rsr.path("m 534.56608,163.42166 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13736 = rsr.path("m 534.56608,160.7354 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13738 = rsr.path("m 534.56608,158.04913 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13740 = rsr.path("m 531.87981,227.89192 0,-75.21532").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13742 = rsr.path("m 534.56608,225.20566 0,-56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13744 = rsr.path("m 534.56608,166.10792 0,-10.74506").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13746 = rsr.path("m 534.56608,168.79418 17.4607,56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1','stroke-dasharray': '--'});
+var path13748 = rsr.path("m 552.02678,225.20566 17.4607,-56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1','stroke-dasharray': '--'});
+var path13750 = rsr.path("m 491.58589,227.89192 0,-75.21532").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13752 = rsr.path("m 531.87981,152.6766 -40.29392,0 0,75.21532 40.29392,0").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13754 = rsr.path("m 529.19355,155.36286 -34.9214,0 0,10.74506").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13756 = rsr.path("m 494.27215,168.79418 0,56.41148 34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13758 = rsr.path("m 529.19355,168.79418 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13760 = rsr.path("m 531.87981,166.10792 -40.29392,0").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13762 = rsr.path("m 529.19355,163.42166 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13764 = rsr.path("m 529.19355,160.7354 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13766 = rsr.path("m 529.19355,158.04913 -34.9214,0").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13768 = rsr.path("m 531.87981,227.89192 0,-75.21532").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13770 = rsr.path("m 529.19355,225.20566 0,-56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13772 = rsr.path("m 529.19355,166.10792 0,-10.74506").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1'});
+var path13774 = rsr.path("m 529.19355,168.79418 -17.4607,56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1','stroke-dasharray': '--'});
+var path13776 = rsr.path("m 511.73285,225.20566 -17.4607,-56.41148").attr({fill: 'none',stroke: '#000000','stroke-width': '0.5','stroke-opacity': '1','stroke-dasharray': '--'});
 var janelaQuartoCasal = rsr.setFinish();
 
 rsr.setStart();
@@ -970,9 +973,24 @@ var path15560 = rsr.path("m 464.72327,152.67658 -1.0745,0").attr({fill: 'none',s
 var path15562 = rsr.path("m 464.72327,227.89191 -1.0745,0").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var paredesFundo = rsr.setFinish();
 
-//var rsrGroups = [layer1,cotasLinhas,cotasCirculos,paredes,paredesBaixas,projecaoCoberta,janelasAltas,janelasBaixas,portas,hachuras,cotasEsquerda,cotasSuperior,cotasDireita,pilar,areasCotas,cortes,cotaPiso,paredeBancadaCozinha,cotaInferior];
+rsr.setStart();
+var rect11054 = rsr.path("m 55.75,75.8125 0,8.34375 570.75,0 0,-8.34375 -570.75,0 z m 28.125,9.46875 0,177.25 164.4375,0 0,0.0312 350.0625,0 0,-10.0625 0,-162.75 -15.34375,0 0,162.75 -142.96875,0 0,-162.75 -15.0625,0 0,162.75 -175.84375,0 0,-167.21875 -165.28125,0 z").attr({fill: '#ffffff',"fill-opacity": '0',stroke: 'none','stroke-width':'0','stroke-opacity':'1'});
+var plano1 = rsr.setFinish();
+plano1.transform("t0,30");
+
+rsr.setStart();
+var rect11054 = rsr.path("M 250 85.28125 L 250 251.40625 L 425 251.40625 L 425 89.75 L 440.0625 89.75 L 440.0625 251.40625 L 464.3125 251.40625 L 464.3125 85.28125 L 250 85.28125 z ").attr({fill: '#ffffff',"fill-opacity": '0',stroke: 'none','stroke-width':'0','stroke-opacity':'1'});
+var plano2 = rsr.setFinish();
+plano2.transform("t0,30");
+
+
+rsr.setStart();
+var rect11861 = rsr.path("M 465.125 85.28125 L 465.125 251.40625 L 582.28125 251.40625 L 582.28125 91.65625 L 598.09375 91.65625 L 598.09375 85.28125 L 465.125 85.28125 z ").attr({fill: '#ffffff',"fill-opacity": '0',stroke: 'none','stroke-width':'0','stroke-opacity':'1'});
+var plano3 = rsr.setFinish();
+plano3.transform("t0,30");
+
 layer1.push(
-	groupText,
+	//groupText,
 	paredes,
 	paredesFundo,
 	pilares,
@@ -1010,6 +1028,19 @@ rsr.setStart();
 var textJanelaServico = rsr.text(15, 520, 'janela alta da área de serviço').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemJanelaServico = rsr.setFinish();
 
+// coluna 2
+rsr.setStart();
+var textPlano1 = rsr.text(250, 400, 'primeiro plano').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemPlano1 = rsr.setFinish();
+
+rsr.setStart();
+var textPlano2 = rsr.text(250, 430, 'segundo plano').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemPlano2 = rsr.setFinish();
+
+rsr.setStart();
+var textPlano3 = rsr.text(250, 460, 'terceiro plano').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemPlano3 = rsr.setFinish();
+
 // legenda
 var legenda = rsr.set();
 legenda
@@ -1018,7 +1049,10 @@ legenda
 		itemJanelaQuartoCasal,
 		itemJanelaSala,
 		itemJanelaWC,
-		itemJanelaServico
+		itemJanelaServico,
+		itemPlano1,
+		itemPlano2,
+		itemPlano3
 	)
 	.attr({
 		"cursor": "pointer"
@@ -1046,6 +1080,20 @@ itemJanelaWC.click(function(){
 itemJanelaServico.click(function(){
 	itemSelect(itemJanelaServico, janelaServico);
 });
+
+// coluna 2
+itemPlano1.click(function(){
+	itemSelect(itemPlano1, plano1, null, true);
+});
+
+itemPlano2.click(function(){
+	itemSelect(itemPlano2, plano2, null, true);
+});
+
+itemPlano3.click(function(){
+	itemSelect(itemPlano3, plano3, null, true);
+});
+
 // Funções
 
 // definindo objeto specialItem
@@ -1087,7 +1135,7 @@ var itemHighlight = function(target, strokeWidth, fill) {
 			target.attr({"stroke-width": strokeWidth});
 		}
 	} else {
-		target.attr({"fill": "#ff0000"});
+		target.attr({"fill": "#ff0000", "fill-opacity": "0.5"});
 	}
 };
 
@@ -1102,7 +1150,9 @@ var itemRestore = function(target, strokeWidth, fill) {
 	if (specialItemList.length) {
 		for (var j = specialItemList.length - 1; j >= 0; j--) {
 			if (specialItemList[j].kind === "fill") {
-				specialItemList[j].name.attr({"fill":specialItemList[j].value});
+				//specialItemList[j].name.attr({"fill":specialItemList[j].value});
+				// HACK: valor original não está sendo lido, então estou setando manualmente como branco
+				specialItemList[j].name.attr({"fill":"#ffffff", "fill-opacity":"0"});
 			} else if (specialItemList[j].kind === "stroke-width") {
 				specialItemList[j].name.attr({"stroke-width":specialItemList[j].value});
 			}
