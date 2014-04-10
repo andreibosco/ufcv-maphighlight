@@ -959,7 +959,7 @@ var text04 = rsr.text(15, 450, 'linha contínua fina (plano mais distante do obs
 var itemLinhaFina = rsr.setFinish();
 
 rsr.setStart();
-var text05 = rsr.text(15, 480, 'linha contínua média (plano mais próximo do observador)').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var text05 = rsr.text(15, 480, 'aresta visível próximo do observador').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemLinhaMedia = rsr.setFinish();
 
 // legenda
