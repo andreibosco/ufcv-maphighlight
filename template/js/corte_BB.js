@@ -85,7 +85,10 @@ var path38796 = rsr.path("m 455.4156,147.71164 151.44309,0").attr({fill: 'none',
 var laje = rsr.setFinish();
 
 rsr.setStart();
-var path38814 = rsr.path("m 105.20346,141.22122 0,-101.68321 -2.70434,0 0,101.68321 2.70434,0 z").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path38814 = rsr.path("m 105.20346,141.22122 0,-101.68321 -2.70434,0 0,101.68321 2.70434,0 z").attr({fill: 'none',stroke: '#000000','stroke-width': '2','stroke-opacity': '1'});
+var tesoura = rsr.setFinish();
+
+rsr.setStart();
 var path38816 = rsr.path("m 238.52746,39.53801 157.93351,0 0,5.40868 -157.93351,0 0,-5.40868 z").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path38818 = rsr.path("m 73.48154,121.91223 a 2.37982,2.37982 0 0 0 -1.756058,0.77364").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
 var path38820 = rsr.path("m 71.48602,122.46685 -0.995195,1.08806").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
@@ -1050,9 +1053,9 @@ var text39418 = rsr.text(-292.97638, 82.264503, '.20').attr({"font-size": '9px',
 var text39430 = rsr.text(-163.93768, 422.53186, '.40').attr({"font-size": '9px',"line-height": '125%',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("m0,-1,1,0,0,0");
 var text39440 = rsr.text(-211.26367, 422.53189, '1.35').attr({"font-size": '9px',"line-height": '125%',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("m0,-1,1,0,0,0");
 var text39450 = rsr.text(-276.16785, 422.53186, '1.05').attr({"font-size": '9px',"line-height": '125%',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("m0,-1,1,0,0,0");
-var text39464 = rsr.text(-145.2561, 646.87689, '.42').attr({"font-size": '9px',"line-height": '125%',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("m0,-1,1,0,0,0");
+var text39464 = rsr.text(-145.2561, 646.87689, '.40').attr({"font-size": '9px',"line-height": '125%',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("m0,-1,1,0,0,0");
 var text39474 = rsr.text(-190.98108, 624.65546, '.60').attr({"font-size": '9px',"line-height": '125%',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("m0,-1,1,0,0,0");
-var text39484 = rsr.text(-255.88525, 624.65546, '1.80').attr({"font-size": '9px',"line-height": '125%',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("m0,-1,1,0,0,0");
+var text39484 = rsr.text(-255.88525, 624.65546, '1.82').attr({"font-size": '9px',"line-height": '125%',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("m0,-1,1,0,0,0");
 var text39500 = rsr.text(-291.29053, 646.87689, '.20').attr({"font-size": '9px',"line-height": '125%',fill: '#000000',"font-family": 'Arial','stroke-width': '1','stroke-opacity': '1'}).transform("m0,-1,1,0,0,0");
 var cotasTexto = rsr.setFinish();
 
@@ -1159,6 +1162,7 @@ layer1.push(
 	janela,
 	pilar,
 	laje,
+	tesoura,
 	coberta,
 	cobertaCortada,
 	janelasCortadas,
@@ -1219,6 +1223,10 @@ rsr.setStart();
 var text09 = rsr.text(395, 520, 'janela da sala').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemJanela = rsr.setFinish();
 
+rsr.setStart();
+var text10 = rsr.text(395, 550, 'tesoura').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemTesoura = rsr.setFinish();
+
 // legenda
 var legenda = rsr.set();
 legenda
@@ -1231,7 +1239,8 @@ legenda
 		itemPilar,
 		itemPortaCozinha,
 		itemParedesAberturas,
-		itemJanela
+		itemJanela,
+		itemTesoura
 	)
 	.attr({
 		"cursor": "pointer"
@@ -1277,6 +1286,11 @@ itemParedesAberturas.click(function(){
 itemJanela.click(function(){
 	itemSelect(itemJanela, janela);
 });
+
+itemTesoura.click(function(){
+	itemSelect(itemTesoura, tesoura);
+});
+
 // Funções
 
 // definindo objeto specialItem
