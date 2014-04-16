@@ -149,6 +149,20 @@ var path4205 = rsr.path("m 655.05726,66.968066 -1.28095,6.798879 3.1531,0.54194 
 var path25230 = rsr.path("m 111.70978,59.24792 -1.17331,-6.78147").attr({id: 'path25230',parent: 'g25146',fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'}).data('id', 'path25230');
 var path25232 = rsr.path("m 109.15066,59.69069 -1.1733,-6.78147").attr({id: 'path25232',parent: 'g25146',fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'}).data('id', 'path25232');
 var path25234 = rsr.path("m 109.15066,59.69069 2.55912,-0.44277").attr({id: 'path25234',parent: 'g25146',fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'}).data('id', 'path25234');
+var path25216 = rsr.path("m 342.83628,12.72424 -2.59715,0 0,4.96961 2.59715,0 0,-4.96961 z").attr({fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
+var path25218 = rsr.path("m 112.98934,81.75665 0,-10.38856 -5.19428,0 0,10.38856 5.19428,0 z").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path25220 = rsr.path("M 102.60078,72.26678 232.4578,49.79945").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path25222 = rsr.path("M 100.67852,61.15651 232.2807,38.38724").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path25224 = rsr.path("M 102.60078,72.26678 100.67852,61.15651").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path25226 = rsr.path("m 76.629371,58.33291 1.173303,6.78148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path25228 = rsr.path("m 77.802674,65.11439 31.347986,-5.4237").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path25230 = rsr.path("m 111.70978,59.24792 -1.17331,-6.78147").attr({fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
+var path25232 = rsr.path("m 109.15066,59.69069 -1.1733,-6.78147").attr({fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
+var path25234 = rsr.path("m 109.15066,59.69069 2.55912,-0.44277").attr({fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
+var path25236 = rsr.path("m 689.55454,72.712 -1.17331,6.78148").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path25238 = rsr.path("m 688.38123,79.49348 -33.9071,-5.86647").attr({fill: 'none',stroke: '#000000','stroke-width': '1','stroke-opacity': '1'});
+var path25240 = rsr.path("m 654.47413,73.62701 1.1733,-6.78147").attr({fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
+var path25242 = rsr.path("m 657.03325,74.06978 1.1733,-6.78147").attr({fill: 'none',stroke: '#000000',"stroke-width": '2',"stroke-miterlimit": '4',"stroke-dasharray": 'none','stroke-opacity': '1'});
 var madeiramento = rsr.setFinish();
 
 rsr.setStart();
@@ -313,26 +327,26 @@ rsr.setStart();
 var text04 = rsr.text(15, 460, 'coberta').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemCoberta = rsr.setFinish();
 
-rsr.setStart();
-var text05 = rsr.text(15, 490, 'beiral do banheiro').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
-var itemBeiralBanheiro = rsr.setFinish();
-
 // coluna 02
 rsr.setStart();
-var text06 = rsr.text(395, 370, 'pilar').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var text05 = rsr.text(395, 370, 'pilar').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPilar = rsr.setFinish();
 
 rsr.setStart();
-var text07 = rsr.text(395, 400, 'porta da cozinha').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var text06 = rsr.text(395, 400, 'porta da cozinha').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPortaCozinha = rsr.setFinish();
 
 rsr.setStart();
-var text08 = rsr.text(395, 430, 'abertura da cozinha americana').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var text07 = rsr.text(395, 430, 'abertura da cozinha americana').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemAberturaCozinha = rsr.setFinish();
 
 rsr.setStart();
-var text09 = rsr.text(395, 460, 'porta do quarto casal').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var text08 = rsr.text(395, 460, 'porta do quarto casal').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
 var itemPortaQuarto = rsr.setFinish();
+
+rsr.setStart();
+var text09 = rsr.text(395, 490, 'beiral do banheiro').attr({"font-size": '16px',"font-weight": 'normal',"text-align": 'start',"text-anchor": 'start',fill: '#000000',"fill-opacity": '1',stroke: 'none','stroke-width':'1','stroke-opacity':'1',"font-family": 'Sans'});
+var itemBeiralBanheiro = rsr.setFinish();
 
 // legenda
 var legenda = rsr.set();
