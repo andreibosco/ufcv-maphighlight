@@ -1106,10 +1106,10 @@ var arestaPiso = rsr.setFinish();
 rsr.setStart();
 var path6924 = rsr.path("m 399.97944,482.24849 40.50123,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
 var path6923 = rsr.path("m 310.69098,296.64833 -34.65935,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
-var path6920 = rsr.path("m 259.55312,229.62835 -26.80103,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
+//var path6920 = rsr.path("m 259.55312,229.62835 -26.80103,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
 var path6922 = rsr.path("m 260.2113,236.21011 -26.80103,0").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'});
 var path6926 = rsr.path("m 508.90295,691.54443 0,-26.9435").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'}).transform("t-1.4828368,-308.81578");
-var path28945 = rsr.path("m 265.87871,484.31991 0,35.34697").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
+//var path28945 = rsr.path("m 265.87871,484.31991 0,35.34697").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var path28947 = rsr.path("m 272.08405,484.31991 0,35.34697").attr({fill: 'none',stroke: '#000000',"stroke-width": '1','stroke-opacity': '1'}).transform("t-1.4828368,-307.93821");
 var desnivel = rsr.setFinish();
 
